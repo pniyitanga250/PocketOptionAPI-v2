@@ -6,24 +6,35 @@ import websockets
 import anyio
 from rich.pretty import pprint as print
 import json
+import ssl
 
 class WebSocketClient:
     def __init__(self, session) -> None:
         self.SESSION = session
+
     async def websocket_client(self, url, pro):
         while True:
             try:
+                ssl_context = ssl.create_default_context()
+                ssl_context.options |= ssl.OP_NO_SSLv2
+                ssl_context.options |= ssl.OP_NO_SSLv3
+                ssl_context.set_ciphers('ECDHE+AESGCM')
                 async with websockets.connect(
                     url,
                     extra_headers={
                         # "Origin": "https://pocket-link19.co",
                         "Origin": "https://po.trade/"
                     },
+                    ssl=ssl_context,
                 ) as websocket:
                     async for message in websocket:
                         await pro(message, websocket, url)
             except KeyboardInterrupt:
                 exit()
+            except IndexError as ie:
+                print(f"IndexError in SSLProtocol: {ie}")
+                print("Recovering from SSL IndexError... reconnecting")
+                await anyio.sleep(5)
             except Exception as e:
                 print(e)
                 print("Connection lost... reconnecting")

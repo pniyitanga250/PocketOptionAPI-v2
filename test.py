@@ -24,9 +24,24 @@ ssid = """42["auth",{"session":"onhvo09okq5u7q8l8vhvricje4","isDemo":1,"uid":710
 demo = True
 
 min_payout = 92
-period = 30
+period = 15
 expiration = 15
 api = PocketOption(ssid,demo)
+
+# Lock to ensure only one trade at a time
+trade_lock = threading.Lock()
+
+# Global list to store trade logs
+trade_logs = []
+
+# Martingale step tracking per pair
+martingale_steps = {}
+
+# Max Martingale steps
+max_mg_steps = 3
+
+# Base trade amount
+base_amount = 1
 
 # Connect to API
 api.connect()
@@ -34,22 +49,28 @@ api.connect()
 
 def get_payout():
     try:
+        from tabulate import tabulate
         d = global_value.PayoutData
         d = json.loads(d)
+        table_data = []
         for pair in d:
-            # |0| |  1  |  |  2  |  |  3  | |4 | 5 |6 | 7 | 8| 9| 10 |11| 12| 13        | 14   | | 15,                                                                                                                                                                                     |  16| 17| 18        |
-            # [5, '#AAPL', 'Apple', 'stock', 2, 50, 60, 30, 3, 0, 170, 0, [], 1743724800, False, [{'time': 60}, {'time': 120}, {'time': 180}, {'time': 300}, {'time': 600}, {'time': 900}, {'time': 1800}, {'time': 2700}, {'time': 3600}, {'time': 7200}, {'time': 10800}, {'time': 14400}], -1, 60, 1743784500],
             if len(pair) == 19:
-                global_value.logger('id: %s, name: %s, typ: %s, active: %s' % (str(pair[1]), str(pair[2]), str(pair[3]), str(pair[14])), "DEBUG")
-                #if pair[14] == True and pair[5] >= min_payout and "_otc" not in pair[1] and pair[3] == "currency":         # Get all non OTC Currencies with min_payout
-                if pair[14] == True and pair[5] >= min_payout and "_otc" in pair[1]:                                       # Get all OTC Markets with min_payout
-                #if pair[14] == True and pair[3] == "cryptocurrency" and pair[5] >= min_payout and "_otc" not in pair[1]:   # Get all non OTC Cryptocurrencies
-                #if pair[14] == True:                                                                                       # Get All that online
+                table_data.append([pair[1], pair[2], pair[3], pair[14], pair[5]])
+                if pair[14] == True and pair[5] >= min_payout and "_otc" in pair[1]:
                     p = {}
                     p['id'] = pair[0]
                     p['payout'] = pair[5]
                     p['type'] = pair[3]
                     global_value.pairs[pair[1]] = p
+        headers = ["ID", "Name", "Type", "Active", "Payout"]
+        table_str = tabulate(table_data, headers, tablefmt="fancy_grid")
+        global_value.logger(f"Payout Data:\n{table_str}", "DEBUG")
+        return True
+    except ImportError:
+        # tabulate not installed, fallback to original logging
+        for pair in d:
+            if len(pair) == 19:
+                global_value.logger('id: %s, name: %s, typ: %s, active: %s' % (str(pair[1]), str(pair[2]), str(pair[3]), str(pair[14])), "DEBUG")
         return True
     except:
         return False
@@ -77,9 +98,64 @@ def buy(amount, pair, action, expiration):
         global_value.logger(str(result), "INFO")
 
 
-def buy2(amount, pair, action, expiration):
-    global_value.logger('%s, %s, %s, %s' % (str(amount), str(pair), str(action), str(expiration)), "INFO")
-    result = api.buy(amount=amount, active=pair, action=action, expirations=expiration)
+def buy2(amount, pair, action, expiration, mg_step=0):
+    with trade_lock:
+        from tabulate import tabulate
+        # ANSI color codes
+        COLOR_RESET = "\033[0m"
+        COLOR_GREEN = "\033[92m"
+        COLOR_RED = "\033[91m"
+        COLOR_YELLOW = "\033[93m"
+        result = api.buy(amount=amount, active=pair, action=action, expirations=expiration)
+        trade_id = result[1]
+        # Check the result of the trade in real-time
+        win_result = api.check_win(trade_id)
+        if win_result is not None:
+            win_value = win_result[0] if isinstance(win_result, tuple) else win_result
+            result_str = "WIN" if win_value > 0 else "LOSS"
+
+            # Update martingale steps based on result
+            if pair not in martingale_steps:
+                martingale_steps[pair] = 0
+
+            if result_str == "WIN":
+                martingale_steps[pair] = 0
+            else:
+                if mg_step < max_mg_steps:
+                    martingale_steps[pair] = mg_step + 1
+                else:
+                    martingale_steps[pair] = 0
+
+            # Append trade log with MG step
+            trade_logs.append([amount, pair, action, expiration, result_str, mg_step])
+
+            # Color the result column
+            colored_trade_logs = []
+            for log in trade_logs:
+                colored_result = (COLOR_GREEN + log[4] + COLOR_RESET) if log[4] == "WIN" else (COLOR_RED + log[4] + COLOR_RESET)
+                colored_trade_logs.append([log[0], log[1], log[2], log[3], colored_result, log[5]])
+            # Prepare table and summary
+            headers = ["Amount", "Pair", "Action", "Expiration", "Result", "MG"]
+            table_str = tabulate(colored_trade_logs, headers, tablefmt="fancy_grid")
+            next_analysis = wait(False)
+            total_profit = sum([base_amount if log[4] == "WIN" else -base_amount for log in trade_logs])  # Assuming fixed base amount per trade
+
+            # Calculate total trades and win rate
+            total_trades = len(trade_logs)
+            wins = sum(1 for log in trade_logs if log[4] == "WIN")
+            win_rate = (wins / total_trades) * 100 if total_trades > 0 else 0
+
+            summary = f"{COLOR_YELLOW}Next analysis in {next_analysis} seconds; Total profit: {total_profit}; Total trades: {total_trades}; Win rate: {win_rate:.2f}%{COLOR_RESET}"
+            global_value.logger(f"Trade Log:\n{table_str}\n{summary}", "INFO")
+
+            # If loss and mg_step < max, place next martingale trade automatically
+            if result_str == "LOSS" and mg_step < max_mg_steps:
+                next_amount = base_amount * (2 ** (mg_step + 1))
+                # Fix martingale step direction: 1st step opposite to initial, 2nd opposite to 1st, 3rd opposite to 2nd, etc.
+                next_action = "put" if action == "call" else "call"
+                global_value.logger(f"Martingale step {mg_step + 1} for {pair}, placing next trade with amount {next_amount} with action {next_action}", "INFO")
+                t = threading.Thread(target=buy2, args=(next_amount, pair, next_action, expiration, mg_step + 1))
+                t.start()
 
 
 def make_df(df0, history):
@@ -190,32 +266,39 @@ def strategie():
                 df = make_df(global_value.pairs[pair]['dataframe'], history)
             else:
                 df = make_df(None, history)
+            
+            # Skip new trades if Martingale sequence active for this pair
+            if martingale_steps.get(pair, 0) > 0:
+                continue
+            
+            # New condition: 1 bullish candle after bearish candle -> call
+            if len(df) >= 2:
+                last_two = df.iloc[-2:]
+                first_candle = last_two.iloc[0]
+                second_candle = last_two.iloc[1]
+                first_bearish = first_candle['close'] < first_candle['open']
+                second_bullish = second_candle['close'] > second_candle['open']
+                first_bullish = first_candle['close'] > first_candle['open']
+                second_bearish = second_candle['close'] < second_candle['open']
 
-            # Strategy 9, period: 30
-            heikinashi = qtpylib.heikinashi(df)
-            df['open'] = heikinashi['open']
-            df['close'] = heikinashi['close']
-            df['high'] = heikinashi['high']
-            df['low'] = heikinashi['low']
-            df = supertrend(df, 1.3, 13)
-            df['ma1'] = ta.EMA(df["close"], timeperiod=16)
-            df['ma2'] = ta.EMA(df["close"], timeperiod=165)
-            df['buy'], df['cross'] = 0, 0
-            df.loc[(qtpylib.crossed_above(df['ST'], df['ma1'])), 'cross'] = 1
-            df.loc[(qtpylib.crossed_below(df['ST'], df['ma1'])), 'cross'] = -1
-            df.loc[(
-                    (df['STX'] == "up") &
-                    (df['ma1'] > df['ma2']) &
-                    (df['cross'] == 1)
-                ), 'buy'] = 1
-            df.loc[(
-                    (df['STX'] == "down") &
-                    (df['ma1'] < df['ma2']) &
-                    (df['cross'] == -1)
-                ), 'buy'] = -1
-            if df.loc[len(df)-1]['buy'] != 0:
-                t = threading.Thread(target=buy2, args=(5, pair, "call" if df.loc[len(df)-1]['buy'] == 1 else "put", 15,))
-                t.start()
+                # Calculate candle body sizes
+                first_body_size = abs(first_candle['close'] - first_candle['open'])
+                second_body_size = abs(second_candle['close'] - second_candle['open'])
+                # Define minimum body size threshold (e.g., 0.1% of close price)
+                min_body_size = second_candle['close'] * 0.001
+
+                if first_bearish and second_bullish and second_body_size >= min_body_size:
+                    if not trade_lock.locked():
+                        action = "call"
+                        global_value.logger(f"Placing trade: 1 bullish candle after bearish candle detected for {pair}, action: {action}", "INFO")
+                        t = threading.Thread(target=buy2, args=(base_amount, pair, action, expiration, 0))
+                        t.start()
+                elif first_bullish and second_bearish and second_body_size >= min_body_size:
+                    if not trade_lock.locked():
+                        action = "put"
+                        global_value.logger(f"Placing trade: 1 bearish candle after bullish candle detected for {pair}, action: {action}", "INFO")
+                        t = threading.Thread(target=buy2, args=(base_amount, pair, action, expiration, 0))
+                        t.start()
 
             # Strategy 8, period: 15
             # df['ma1'] = ta.SMA(df["close"], timeperiod=7)
@@ -593,17 +676,15 @@ def prepare():
 def wait(sleep=True):
     dt = int(datetime.now().timestamp()) - int(datetime.now().second)
     if period == 60:
-        dt += 60
+        dt += 120  # Increased sleep time to 2 minutes
+    elif period == 120:
+        dt += 180  # Increased sleep time to 2 minutes
     elif period == 30:
         if datetime.now().second < 30: dt += 30
         else: dt += 60
         if not sleep: dt -= 30
     elif period == 15:
-        if datetime.now().second >= 45: dt += 60
-        elif datetime.now().second >= 30: dt += 45
-        elif datetime.now().second >= 15: dt += 30
-        else: dt += 15
-        if not sleep: dt -= 15
+        dt += 30  # Increased sleep time to 2 minutes for 15s candles
     elif period == 10:
         if datetime.now().second >= 50: dt += 60
         elif datetime.now().second >= 40: dt += 50
@@ -639,8 +720,13 @@ def wait(sleep=True):
         dt = int(datetime(int(datetime.now().year), int(datetime.now().month), int(datetime.now().day), int(datetime.now().hour), int(math.floor(int(datetime.now().minute) / 10) * 10), 0).timestamp())
         dt += 600
     if sleep:
-        global_value.logger('======== Sleeping %s Seconds ========' % str(dt - int(datetime.now().timestamp())), "INFO")
-        return dt - int(datetime.now().timestamp())
+        import sys
+        for remaining in range(dt - int(datetime.now().timestamp()), 0, -1):
+            sys.stdout.write(f'\r======== Sleeping {remaining} Seconds ========')
+            sys.stdout.flush()
+            time.sleep(1)
+        sys.stdout.write('\n')
+        return 0
 
     return dt
 
@@ -650,7 +736,12 @@ def start():
         time.sleep(0.1)
     time.sleep(2)
     saldo = api.get_balance()
-    global_value.logger('Account Balance: %s' % str(saldo), "INFO")
+    try:
+        from tabulate import tabulate
+        table_str = tabulate([["Balance", saldo]], headers=["Account", "Balance"], tablefmt="fancy_grid")
+        global_value.logger(f"Account Balance:\n{table_str}", "INFO")
+    except ImportError:
+        global_value.logger('Account Balance: %s' % str(saldo), "INFO")
     prep = prepare()
     if prep:
         while True:

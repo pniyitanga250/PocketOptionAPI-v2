@@ -1,0 +1,987 @@
+2025-05-07 18:18:01,181 - INFO - Starting trading bot...
+2025-05-07 18:18:01,188 - INFO - Successfully connected to PocketOption API
+2025-05-07 18:18:01,189 - ERROR - Error getting payout data: the JSON object must be str, bytes or bytearray, not NoneType
+2025-05-07 18:18:01,190 - ERROR - Failed to get payout data
+2025-05-07 18:20:37,369 - INFO - Starting trading bot...
+2025-05-07 18:20:37,377 - INFO - Successfully connected to PocketOption API
+2025-05-07 18:20:37,378 - INFO - Waiting for websocket connection...
+2025-05-07 18:20:38,393 - INFO - Waiting for websocket connection...
+2025-05-07 18:20:39,400 - ERROR - PayoutData is not available or is None
+2025-05-07 18:20:39,401 - ERROR - Failed to get payout data
+2025-05-07 18:21:00,733 - INFO - Starting trading bot...
+2025-05-07 18:21:00,739 - INFO - Successfully connected to PocketOption API
+2025-05-07 18:21:00,739 - INFO - Waiting for websocket connection...
+2025-05-07 18:21:01,742 - INFO - Waiting for websocket connection...
+2025-05-07 18:21:02,756 - ERROR - PayoutData is not available or is None
+2025-05-07 18:21:02,757 - ERROR - Failed to get payout data
+2025-05-07 18:23:40,442 - INFO - Starting trading bot...
+2025-05-07 18:23:40,448 - INFO - Successfully connected to PocketOption API
+2025-05-07 18:23:40,449 - INFO - Waiting for websocket connection...
+2025-05-07 18:23:41,477 - INFO - Waiting for websocket connection...
+2025-05-07 18:23:42,496 - DEBUG - Added pair: #AAPL (payout: 50%)
+2025-05-07 18:23:42,496 - DEBUG - Added pair: #AAPL_otc (payout: 66%)
+2025-05-07 18:23:42,497 - DEBUG - Added pair: #AXP (payout: 50%)
+2025-05-07 18:23:42,497 - DEBUG - Added pair: #AXP_otc (payout: 92%)
+2025-05-07 18:23:42,497 - DEBUG - Added pair: #BA (payout: 50%)
+2025-05-07 18:23:42,497 - DEBUG - Added pair: #BA_otc (payout: 83%)
+2025-05-07 18:23:42,498 - DEBUG - Added pair: #CSCO (payout: 45%)
+2025-05-07 18:23:42,498 - DEBUG - Added pair: #CSCO_otc (payout: 69%)
+2025-05-07 18:23:42,498 - DEBUG - Added pair: #FB (payout: 50%)
+2025-05-07 18:23:42,498 - DEBUG - Added pair: #FB_otc (payout: 68%)
+2025-05-07 18:23:42,498 - DEBUG - Added pair: #INTC (payout: 25%)
+2025-05-07 18:23:42,499 - DEBUG - Added pair: #INTC_otc (payout: 76%)
+2025-05-07 18:23:42,499 - DEBUG - Added pair: #JNJ (payout: 50%)
+2025-05-07 18:23:42,499 - DEBUG - Added pair: #JNJ_otc (payout: 92%)
+2025-05-07 18:23:42,499 - DEBUG - Added pair: #JPM (payout: 50%)
+2025-05-07 18:23:42,499 - DEBUG - Added pair: #MCD (payout: 50%)
+2025-05-07 18:23:42,499 - DEBUG - Added pair: #MCD_otc (payout: 74%)
+2025-05-07 18:23:42,500 - DEBUG - Added pair: #MSFT (payout: 50%)
+2025-05-07 18:23:42,500 - DEBUG - Added pair: #MSFT_otc (payout: 72%)
+2025-05-07 18:23:42,500 - DEBUG - Added pair: #PFE (payout: 50%)
+2025-05-07 18:23:42,500 - DEBUG - Added pair: #PFE_otc (payout: 67%)
+2025-05-07 18:23:42,501 - DEBUG - Added pair: #TSLA (payout: 50%)
+2025-05-07 18:23:42,501 - DEBUG - Added pair: #TSLA_otc (payout: 72%)
+2025-05-07 18:23:42,501 - DEBUG - Added pair: #XOM (payout: 45%)
+2025-05-07 18:23:42,501 - DEBUG - Added pair: #XOM_otc (payout: 88%)
+2025-05-07 18:23:42,501 - DEBUG - Added pair: 100GBP (payout: 45%)
+2025-05-07 18:23:42,502 - DEBUG - Added pair: 100GBP_otc (payout: 45%)
+2025-05-07 18:23:42,502 - DEBUG - Added pair: ADA-USD_otc (payout: 53%)
+2025-05-07 18:23:42,502 - DEBUG - Added pair: AEDCNY_otc (payout: 92%)
+2025-05-07 18:23:42,502 - DEBUG - Added pair: AEX25 (payout: 45%)
+2025-05-07 18:23:42,502 - DEBUG - Added pair: AMD_otc (payout: 73%)
+2025-05-07 18:23:42,502 - DEBUG - Added pair: AMZN_otc (payout: 92%)
+2025-05-07 18:23:42,503 - DEBUG - Added pair: AUDCAD (payout: 56%)
+2025-05-07 18:23:42,503 - DEBUG - Added pair: AUDCAD_otc (payout: 92%)
+2025-05-07 18:23:42,503 - DEBUG - Added pair: AUDCHF (payout: 85%)
+2025-05-07 18:23:42,503 - DEBUG - Added pair: AUDCHF_otc (payout: 85%)
+2025-05-07 18:23:42,503 - DEBUG - Added pair: AUDJPY (payout: 60%)
+2025-05-07 18:23:42,504 - DEBUG - Added pair: AUDJPY_otc (payout: 51%)
+2025-05-07 18:23:42,504 - DEBUG - Added pair: AUDNZD_otc (payout: 79%)
+2025-05-07 18:23:42,504 - DEBUG - Added pair: AUDUSD (payout: 80%)
+2025-05-07 18:23:42,504 - DEBUG - Added pair: AUDUSD_otc (payout: 92%)
+2025-05-07 18:23:42,505 - DEBUG - Added pair: AUS200 (payout: 37%)
+2025-05-07 18:23:42,505 - DEBUG - Added pair: AUS200_otc (payout: 67%)
+2025-05-07 18:23:42,505 - DEBUG - Added pair: AVAX_otc (payout: 56%)
+2025-05-07 18:23:42,505 - DEBUG - Added pair: BABA (payout: 50%)
+2025-05-07 18:23:42,505 - DEBUG - Added pair: BABA_otc (payout: 45%)
+2025-05-07 18:23:42,506 - DEBUG - Added pair: BCHEUR (payout: 15%)
+2025-05-07 18:23:42,506 - DEBUG - Added pair: BCHGBP (payout: 15%)
+2025-05-07 18:23:42,506 - DEBUG - Added pair: BCHJPY (payout: 15%)
+2025-05-07 18:23:42,506 - DEBUG - Added pair: BHDCNY_otc (payout: 92%)
+2025-05-07 18:23:42,506 - DEBUG - Added pair: BITB_otc (payout: 92%)
+2025-05-07 18:23:42,507 - DEBUG - Added pair: BNB-USD_otc (payout: 92%)
+2025-05-07 18:23:42,507 - DEBUG - Added pair: BTCGBP (payout: 15%)
+2025-05-07 18:23:42,507 - DEBUG - Added pair: BTCJPY (payout: 15%)
+2025-05-07 18:23:42,507 - DEBUG - Added pair: BTCUSD (payout: 15%)
+2025-05-07 18:23:42,507 - DEBUG - Added pair: BTCUSD_otc (payout: 92%)
+2025-05-07 18:23:42,508 - DEBUG - Added pair: CAC40 (payout: 45%)
+2025-05-07 18:23:42,508 - DEBUG - Added pair: CADCHF (payout: 85%)
+2025-05-07 18:23:42,508 - DEBUG - Added pair: CADCHF_otc (payout: 48%)
+2025-05-07 18:23:42,508 - DEBUG - Added pair: CADJPY (payout: 50%)
+2025-05-07 18:23:42,508 - DEBUG - Added pair: CADJPY_otc (payout: 92%)
+2025-05-07 18:23:42,509 - DEBUG - Added pair: CHFJPY (payout: 82%)
+2025-05-07 18:23:42,509 - DEBUG - Added pair: CHFJPY_otc (payout: 92%)
+2025-05-07 18:23:42,509 - DEBUG - Added pair: CHFNOK_otc (payout: 75%)
+2025-05-07 18:23:42,509 - DEBUG - Added pair: CITI (payout: 50%)
+2025-05-07 18:23:42,510 - DEBUG - Added pair: CITI_otc (payout: 75%)
+2025-05-07 18:23:42,510 - DEBUG - Added pair: COIN_otc (payout: 83%)
+2025-05-07 18:23:42,510 - DEBUG - Added pair: D30EUR (payout: 45%)
+2025-05-07 18:23:42,510 - DEBUG - Added pair: D30EUR_otc (payout: 45%)
+2025-05-07 18:23:42,510 - DEBUG - Added pair: DASH_USD (payout: 25%)
+2025-05-07 18:23:42,511 - DEBUG - Added pair: DJI30 (payout: 45%)
+2025-05-07 18:23:42,511 - DEBUG - Added pair: DJI30_otc (payout: 45%)
+2025-05-07 18:23:42,511 - DEBUG - Added pair: DOGE_otc (payout: 92%)
+2025-05-07 18:23:42,511 - DEBUG - Added pair: DOTUSD_otc (payout: 87%)
+2025-05-07 18:23:42,511 - DEBUG - Added pair: E35EUR (payout: 45%)
+2025-05-07 18:23:42,511 - DEBUG - Added pair: E35EUR_otc (payout: 45%)
+2025-05-07 18:23:42,512 - DEBUG - Added pair: E50EUR (payout: 45%)
+2025-05-07 18:23:42,512 - DEBUG - Added pair: E50EUR_otc (payout: 45%)
+2025-05-07 18:23:42,512 - DEBUG - Added pair: ETHUSD (payout: 40%)
+2025-05-07 18:23:42,512 - DEBUG - Added pair: ETHUSD_otc (payout: 53%)
+2025-05-07 18:23:42,512 - DEBUG - Added pair: EURAUD (payout: 54%)
+2025-05-07 18:23:42,513 - DEBUG - Added pair: EURCAD (payout: 52%)
+2025-05-07 18:23:42,513 - DEBUG - Added pair: EURCHF (payout: 20%)
+2025-05-07 18:23:42,513 - DEBUG - Added pair: EURCHF_otc (payout: 62%)
+2025-05-07 18:23:42,513 - DEBUG - Added pair: EURGBP (payout: 75%)
+2025-05-07 18:23:42,513 - DEBUG - Added pair: EURGBP_otc (payout: 39%)
+2025-05-07 18:23:42,514 - DEBUG - Added pair: EURHUF_otc (payout: 89%)
+2025-05-07 18:23:42,514 - DEBUG - Added pair: EURJPY (payout: 55%)
+2025-05-07 18:23:42,514 - DEBUG - Added pair: EURJPY_otc (payout: 92%)
+2025-05-07 18:23:42,514 - DEBUG - Added pair: EURNZD_otc (payout: 66%)
+2025-05-07 18:23:42,514 - DEBUG - Added pair: EURRUB_otc (payout: 76%)
+2025-05-07 18:23:42,515 - DEBUG - Added pair: EURTRY_otc (payout: 92%)
+2025-05-07 18:23:42,515 - DEBUG - Added pair: EURUSD (payout: 85%)
+2025-05-07 18:23:42,515 - DEBUG - Added pair: EURUSD_otc (payout: 80%)
+2025-05-07 18:23:42,515 - DEBUG - Added pair: F40EUR (payout: 45%)
+2025-05-07 18:23:42,515 - DEBUG - Added pair: F40EUR_otc (payout: 45%)
+2025-05-07 18:23:42,516 - DEBUG - Added pair: FDX_otc (payout: 50%)
+2025-05-07 18:23:42,516 - DEBUG - Added pair: GBPAUD (payout: 65%)
+2025-05-07 18:23:42,516 - DEBUG - Added pair: GBPAUD_otc (payout: 92%)
+2025-05-07 18:23:42,516 - DEBUG - Added pair: GBPCAD (payout: 68%)
+2025-05-07 18:23:42,516 - DEBUG - Added pair: GBPCHF (payout: 38%)
+2025-05-07 18:23:42,517 - DEBUG - Added pair: GBPJPY (payout: 78%)
+2025-05-07 18:23:42,517 - DEBUG - Added pair: GBPJPY_otc (payout: 83%)
+2025-05-07 18:23:42,517 - DEBUG - Added pair: GBPUSD (payout: 70%)
+2025-05-07 18:23:42,517 - DEBUG - Added pair: GBPUSD_otc (payout: 92%)
+2025-05-07 18:23:42,517 - DEBUG - Added pair: GME_otc (payout: 57%)
+2025-05-07 18:23:42,518 - DEBUG - Added pair: H33HKD (payout: 45%)
+2025-05-07 18:23:42,518 - DEBUG - Added pair: IRRUSD_otc (payout: 73%)
+2025-05-07 18:23:42,518 - DEBUG - Added pair: JODCNY_otc (payout: 47%)
+2025-05-07 18:23:42,518 - DEBUG - Added pair: JPN225 (payout: 45%)
+2025-05-07 18:23:42,518 - DEBUG - Added pair: JPN225_otc (payout: 45%)
+2025-05-07 18:23:42,519 - DEBUG - Added pair: KESUSD_otc (payout: 92%)
+2025-05-07 18:23:42,519 - DEBUG - Added pair: LBPUSD_otc (payout: 86%)
+2025-05-07 18:23:42,519 - DEBUG - Added pair: LINK_otc (payout: 85%)
+2025-05-07 18:23:42,519 - DEBUG - Added pair: LNKUSD (payout: 15%)
+2025-05-07 18:23:42,519 - DEBUG - Added pair: LTCUSD_otc (payout: 77%)
+2025-05-07 18:23:42,520 - DEBUG - Added pair: MADUSD_otc (payout: 41%)
+2025-05-07 18:23:42,520 - DEBUG - Added pair: MARA_otc (payout: 71%)
+2025-05-07 18:23:42,520 - DEBUG - Added pair: MATIC_otc (payout: 77%)
+2025-05-07 18:23:42,521 - DEBUG - Added pair: NASUSD (payout: 45%)
+2025-05-07 18:23:42,521 - DEBUG - Added pair: NASUSD_otc (payout: 45%)
+2025-05-07 18:23:42,521 - DEBUG - Added pair: NFLX (payout: 50%)
+2025-05-07 18:23:42,521 - DEBUG - Added pair: NFLX_otc (payout: 61%)
+2025-05-07 18:23:42,522 - DEBUG - Added pair: NGNUSD_otc (payout: 92%)
+2025-05-07 18:23:42,522 - DEBUG - Added pair: NZDJPY_otc (payout: 92%)
+2025-05-07 18:23:42,522 - DEBUG - Added pair: NZDUSD_otc (payout: 40%)
+2025-05-07 18:23:42,523 - DEBUG - Added pair: OMRCNY_otc (payout: 92%)
+2025-05-07 18:23:42,523 - DEBUG - Added pair: PLTR_otc (payout: 74%)
+2025-05-07 18:23:42,523 - DEBUG - Added pair: QARCNY_otc (payout: 44%)
+2025-05-07 18:23:42,523 - DEBUG - Added pair: SARCNY_otc (payout: 82%)
+2025-05-07 18:23:42,524 - DEBUG - Added pair: SMI20 (payout: 45%)
+2025-05-07 18:23:42,524 - DEBUG - Added pair: SOL-USD_otc (payout: 48%)
+2025-05-07 18:23:42,524 - DEBUG - Added pair: SP500 (payout: 45%)
+2025-05-07 18:23:42,525 - DEBUG - Added pair: SP500_otc (payout: 45%)
+2025-05-07 18:23:42,525 - DEBUG - Added pair: SYPUSD_otc (payout: 91%)
+2025-05-07 18:23:42,525 - DEBUG - Added pair: TNDUSD_otc (payout: 75%)
+2025-05-07 18:23:42,525 - DEBUG - Added pair: TON-USD_otc (payout: 92%)
+2025-05-07 18:23:42,526 - DEBUG - Added pair: TRX-USD_otc (payout: 33%)
+2025-05-07 18:23:42,526 - DEBUG - Added pair: UAHUSD_otc (payout: 66%)
+2025-05-07 18:23:42,526 - DEBUG - Added pair: UKBrent (payout: 50%)
+2025-05-07 18:23:42,527 - DEBUG - Added pair: UKBrent_otc (payout: 80%)
+2025-05-07 18:23:42,527 - DEBUG - Added pair: USCrude (payout: 50%)
+2025-05-07 18:23:42,527 - DEBUG - Added pair: USCrude_otc (payout: 80%)
+2025-05-07 18:23:42,527 - DEBUG - Added pair: USDARS_otc (payout: 42%)
+2025-05-07 18:23:42,527 - DEBUG - Added pair: USDBDT_otc (payout: 61%)
+2025-05-07 18:23:42,528 - DEBUG - Added pair: USDBRL_otc (payout: 71%)
+2025-05-07 18:23:42,528 - DEBUG - Added pair: USDCAD (payout: 50%)
+2025-05-07 18:23:42,528 - DEBUG - Added pair: USDCAD_otc (payout: 86%)
+2025-05-07 18:23:42,528 - DEBUG - Added pair: USDCHF (payout: 35%)
+2025-05-07 18:23:42,528 - DEBUG - Added pair: USDCHF_otc (payout: 65%)
+2025-05-07 18:23:42,529 - DEBUG - Added pair: USDCLP_otc (payout: 70%)
+2025-05-07 18:23:42,529 - DEBUG - Added pair: USDCNH_otc (payout: 92%)
+2025-05-07 18:23:42,529 - DEBUG - Added pair: USDCOP_otc (payout: 31%)
+2025-05-07 18:23:42,529 - DEBUG - Added pair: USDDZD_otc (payout: 92%)
+2025-05-07 18:23:42,530 - DEBUG - Added pair: USDEGP_otc (payout: 91%)
+2025-05-07 18:23:42,530 - DEBUG - Added pair: USDIDR_otc (payout: 85%)
+2025-05-07 18:23:42,530 - DEBUG - Added pair: USDINR_otc (payout: 80%)
+2025-05-07 18:23:42,530 - DEBUG - Added pair: USDJPY (payout: 75%)
+2025-05-07 18:23:42,531 - DEBUG - Added pair: USDJPY_otc (payout: 82%)
+2025-05-07 18:23:42,531 - DEBUG - Added pair: USDMXN_otc (payout: 92%)
+2025-05-07 18:23:42,531 - DEBUG - Added pair: USDMYR_otc (payout: 91%)
+2025-05-07 18:23:42,532 - DEBUG - Added pair: USDPHP_otc (payout: 63%)
+2025-05-07 18:23:42,532 - DEBUG - Added pair: USDPKR_otc (payout: 69%)
+2025-05-07 18:23:42,532 - DEBUG - Added pair: USDRUB_otc (payout: 92%)
+2025-05-07 18:23:42,532 - DEBUG - Added pair: USDSGD_otc (payout: 62%)
+2025-05-07 18:23:42,533 - DEBUG - Added pair: USDTHB_otc (payout: 50%)
+2025-05-07 18:23:42,533 - DEBUG - Added pair: USDVND_otc (payout: 80%)
+2025-05-07 18:23:42,533 - DEBUG - Added pair: VISA_otc (payout: 51%)
+2025-05-07 18:23:42,533 - DEBUG - Added pair: VIX_otc (payout: 37%)
+2025-05-07 18:23:42,534 - DEBUG - Added pair: XAGEUR (payout: 50%)
+2025-05-07 18:23:42,534 - DEBUG - Added pair: XAGUSD (payout: 50%)
+2025-05-07 18:23:42,534 - DEBUG - Added pair: XAGUSD_otc (payout: 80%)
+2025-05-07 18:23:42,534 - DEBUG - Added pair: XAUEUR (payout: 50%)
+2025-05-07 18:23:42,535 - DEBUG - Added pair: XAUUSD (payout: 50%)
+2025-05-07 18:23:42,535 - DEBUG - Added pair: XAUUSD_otc (payout: 80%)
+2025-05-07 18:23:42,535 - DEBUG - Added pair: XNGUSD (payout: 45%)
+2025-05-07 18:23:42,536 - DEBUG - Added pair: XNGUSD_otc (payout: 45%)
+2025-05-07 18:23:42,536 - DEBUG - Added pair: XPDUSD (payout: 45%)
+2025-05-07 18:23:42,536 - DEBUG - Added pair: XPDUSD_otc (payout: 45%)
+2025-05-07 18:23:42,536 - DEBUG - Added pair: XPTUSD (payout: 45%)
+2025-05-07 18:23:42,537 - DEBUG - Added pair: XPTUSD_otc (payout: 45%)
+2025-05-07 18:23:42,537 - DEBUG - Added pair: YERUSD_otc (payout: 81%)
+2025-05-07 18:23:42,537 - DEBUG - Added pair: ZARUSD_otc (payout: 37%)
+2025-05-07 18:23:42,539 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 18:23:44,879 - ERROR - Error fetching data for #AAPL: DataFrame constructor not properly called!
+2025-05-07 18:23:49,334 - ERROR - Error fetching data for #AAPL_otc: DataFrame constructor not properly called!
+2025-05-07 18:23:51,970 - ERROR - Error fetching data for #AXP: DataFrame constructor not properly called!
+2025-05-07 18:23:55,717 - ERROR - Error fetching data for #AXP_otc: DataFrame constructor not properly called!
+2025-05-07 18:23:58,754 - ERROR - Error fetching data for #BA: DataFrame constructor not properly called!
+2025-05-07 18:24:02,503 - ERROR - Error fetching data for #BA_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:05,051 - ERROR - Error fetching data for #CSCO: DataFrame constructor not properly called!
+2025-05-07 18:24:09,309 - ERROR - Error fetching data for #CSCO_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:12,652 - ERROR - Error fetching data for #FB: DataFrame constructor not properly called!
+2025-05-07 18:24:17,902 - ERROR - Error fetching data for #FB_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:20,637 - ERROR - Error fetching data for #INTC: DataFrame constructor not properly called!
+2025-05-07 18:24:24,602 - ERROR - Error fetching data for #INTC_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:27,242 - ERROR - Error fetching data for #JNJ: DataFrame constructor not properly called!
+2025-05-07 18:24:31,531 - ERROR - Error fetching data for #JNJ_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:34,372 - ERROR - Error fetching data for #JPM: DataFrame constructor not properly called!
+2025-05-07 18:24:37,004 - ERROR - Error fetching data for #MCD: DataFrame constructor not properly called!
+2025-05-07 18:24:40,862 - ERROR - Error fetching data for #MCD_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:43,801 - ERROR - Error fetching data for #MSFT: DataFrame constructor not properly called!
+2025-05-07 18:24:47,848 - ERROR - Error fetching data for #MSFT_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:50,477 - ERROR - Error fetching data for #PFE: DataFrame constructor not properly called!
+2025-05-07 18:24:54,850 - ERROR - Error fetching data for #PFE_otc: DataFrame constructor not properly called!
+2025-05-07 18:24:58,392 - ERROR - Error fetching data for #TSLA: DataFrame constructor not properly called!
+2025-05-07 18:25:03,045 - ERROR - Error fetching data for #TSLA_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:06,490 - ERROR - Error fetching data for #XOM: DataFrame constructor not properly called!
+2025-05-07 18:25:10,542 - ERROR - Error fetching data for #XOM_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:13,076 - ERROR - Error fetching data for 100GBP: DataFrame constructor not properly called!
+2025-05-07 18:25:17,427 - ERROR - Error fetching data for 100GBP_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:23,022 - ERROR - Error fetching data for ADA-USD_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:27,789 - ERROR - Error fetching data for AEDCNY_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:30,333 - ERROR - Error fetching data for AEX25: DataFrame constructor not properly called!
+2025-05-07 18:25:34,491 - ERROR - Error fetching data for AMD_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:38,748 - ERROR - Error fetching data for AMZN_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:43,200 - ERROR - Error fetching data for AUDCAD: DataFrame constructor not properly called!
+2025-05-07 18:25:47,264 - ERROR - Error fetching data for AUDCAD_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:50,908 - ERROR - Error fetching data for AUDCHF: DataFrame constructor not properly called!
+2025-05-07 18:25:54,863 - ERROR - Error fetching data for AUDCHF_otc: DataFrame constructor not properly called!
+2025-05-07 18:25:59,546 - ERROR - Error fetching data for AUDJPY: DataFrame constructor not properly called!
+2025-05-07 18:26:03,501 - ERROR - Error fetching data for AUDJPY_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:07,563 - ERROR - Error fetching data for AUDNZD_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:11,221 - ERROR - Error fetching data for AUDUSD: DataFrame constructor not properly called!
+2025-05-07 18:26:15,397 - ERROR - Error fetching data for AUDUSD_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:17,938 - ERROR - Error fetching data for AUS200: DataFrame constructor not properly called!
+2025-05-07 18:26:21,991 - ERROR - Error fetching data for AUS200_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:26,160 - ERROR - Error fetching data for AVAX_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:29,303 - ERROR - Error fetching data for BABA: DataFrame constructor not properly called!
+2025-05-07 18:26:33,052 - ERROR - Error fetching data for BABA_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:35,487 - ERROR - Error fetching data for BCHEUR: DataFrame constructor not properly called!
+2025-05-07 18:26:38,117 - ERROR - Error fetching data for BCHGBP: DataFrame constructor not properly called!
+2025-05-07 18:26:40,551 - ERROR - Error fetching data for BCHJPY: DataFrame constructor not properly called!
+2025-05-07 18:26:45,004 - ERROR - Error fetching data for BHDCNY_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:50,061 - ERROR - Error fetching data for BITB_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:54,617 - ERROR - Error fetching data for BNB-USD_otc: DataFrame constructor not properly called!
+2025-05-07 18:26:57,150 - ERROR - Error fetching data for BTCGBP: DataFrame constructor not properly called!
+2025-05-07 18:26:59,686 - ERROR - Error fetching data for BTCJPY: DataFrame constructor not properly called!
+2025-05-07 18:27:06,904 - ERROR - Error fetching data for BTCUSD: DataFrame constructor not properly called!
+2025-05-07 18:27:11,054 - ERROR - Error fetching data for BTCUSD_otc: DataFrame constructor not properly called!
+2025-05-07 18:27:14,696 - ERROR - Error fetching data for CAC40: DataFrame constructor not properly called!
+2025-05-07 18:27:20,149 - ERROR - Error fetching data for CADCHF: DataFrame constructor not properly called!
+2025-05-07 18:27:24,302 - ERROR - Error fetching data for CADCHF_otc: DataFrame constructor not properly called!
+2025-05-07 18:27:28,957 - ERROR - Error fetching data for CADJPY: DataFrame constructor not properly called!
+2025-05-07 18:27:33,205 - ERROR - Error fetching data for CADJPY_otc: DataFrame constructor not properly called!
+2025-05-07 18:27:38,098 - ERROR - Error fetching data for CHFJPY: DataFrame constructor not properly called!
+2025-05-07 18:27:42,859 - ERROR - Error fetching data for CHFJPY_otc: DataFrame constructor not properly called!
+2025-05-07 18:27:47,065 - ERROR - Error fetching data for CHFNOK_otc: DataFrame constructor not properly called!
+2025-05-07 18:27:50,222 - ERROR - Error fetching data for CITI: DataFrame constructor not properly called!
+2025-05-07 18:27:54,504 - ERROR - Error fetching data for CITI_otc: DataFrame constructor not properly called!
+2025-05-07 18:27:58,260 - ERROR - Error fetching data for COIN_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:00,711 - ERROR - Error fetching data for D30EUR: DataFrame constructor not properly called!
+2025-05-07 18:28:04,706 - ERROR - Error fetching data for D30EUR_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:07,209 - ERROR - Error fetching data for DASH_USD: DataFrame constructor not properly called!
+2025-05-07 18:28:09,766 - ERROR - Error fetching data for DJI30: DataFrame constructor not properly called!
+2025-05-07 18:28:13,933 - ERROR - Error fetching data for DJI30_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:18,382 - ERROR - Error fetching data for DOGE_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:22,739 - ERROR - Error fetching data for DOTUSD_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:25,883 - ERROR - Error fetching data for E35EUR: DataFrame constructor not properly called!
+2025-05-07 18:28:30,140 - ERROR - Error fetching data for E35EUR_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:33,991 - ERROR - Error fetching data for E50EUR: DataFrame constructor not properly called!
+2025-05-07 18:28:37,985 - ERROR - Error fetching data for E50EUR_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:41,155 - ERROR - Error fetching data for ETHUSD: DataFrame constructor not properly called!
+2025-05-07 18:28:42,541 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 18:28:45,309 - ERROR - Error fetching data for ETHUSD_otc: DataFrame constructor not properly called!
+2025-05-07 18:28:57,016 - ERROR - Error fetching data for EURAUD: DataFrame constructor not properly called!
+2025-05-07 18:29:01,178 - ERROR - Error fetching data for EURCAD: DataFrame constructor not properly called!
+2025-05-07 18:29:04,833 - ERROR - Error fetching data for EURCHF: DataFrame constructor not properly called!
+2025-05-07 18:29:08,799 - ERROR - Error fetching data for EURCHF_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:12,253 - ERROR - Error fetching data for EURGBP: DataFrame constructor not properly called!
+2025-05-07 18:29:17,824 - ERROR - Error fetching data for EURGBP_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:23,385 - ERROR - Error fetching data for EURHUF_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:28,096 - ERROR - Error fetching data for EURJPY: DataFrame constructor not properly called!
+2025-05-07 18:29:32,168 - ERROR - Error fetching data for EURJPY_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:36,433 - ERROR - Error fetching data for EURNZD_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:41,182 - ERROR - Error fetching data for EURRUB_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:46,041 - ERROR - Error fetching data for EURTRY_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:49,184 - ERROR - Error fetching data for EURUSD: DataFrame constructor not properly called!
+2025-05-07 18:29:53,235 - ERROR - Error fetching data for EURUSD_otc: DataFrame constructor not properly called!
+2025-05-07 18:29:55,572 - ERROR - Error fetching data for F40EUR: DataFrame constructor not properly called!
+2025-05-07 18:30:00,022 - ERROR - Error fetching data for F40EUR_otc: DataFrame constructor not properly called!
+2025-05-07 18:30:04,275 - ERROR - Error fetching data for FDX_otc: DataFrame constructor not properly called!
+2025-05-07 18:30:08,960 - ERROR - Error fetching data for GBPAUD: DataFrame constructor not properly called!
+2025-05-07 18:30:13,010 - ERROR - Error fetching data for GBPAUD_otc: DataFrame constructor not properly called!
+2025-05-07 18:30:17,469 - ERROR - Error fetching data for GBPCAD: DataFrame constructor not properly called!
+2025-05-07 18:30:22,001 - ERROR - Error fetching data for GBPCHF: DataFrame constructor not properly called!
+2025-05-07 18:31:48,037 - INFO - Starting trading bot...
+2025-05-07 18:31:48,043 - INFO - Successfully connected to PocketOption API
+2025-05-07 18:31:48,043 - INFO - Waiting for websocket connection...
+2025-05-07 18:31:49,048 - INFO - Waiting for websocket connection...
+2025-05-07 18:31:50,057 - DEBUG - Added pair: #AAPL (payout: 50%)
+2025-05-07 18:31:50,057 - DEBUG - Added pair: #AAPL_otc (payout: 81%)
+2025-05-07 18:31:50,058 - DEBUG - Added pair: #AXP (payout: 50%)
+2025-05-07 18:31:50,058 - DEBUG - Added pair: #AXP_otc (payout: 87%)
+2025-05-07 18:31:50,058 - DEBUG - Added pair: #BA (payout: 50%)
+2025-05-07 18:31:50,058 - DEBUG - Added pair: #BA_otc (payout: 84%)
+2025-05-07 18:31:50,058 - DEBUG - Added pair: #CSCO (payout: 45%)
+2025-05-07 18:31:50,058 - DEBUG - Added pair: #CSCO_otc (payout: 88%)
+2025-05-07 18:31:50,059 - DEBUG - Added pair: #FB (payout: 50%)
+2025-05-07 18:31:50,059 - DEBUG - Added pair: #FB_otc (payout: 60%)
+2025-05-07 18:31:50,059 - DEBUG - Added pair: #INTC (payout: 25%)
+2025-05-07 18:31:50,059 - DEBUG - Added pair: #INTC_otc (payout: 79%)
+2025-05-07 18:31:50,059 - DEBUG - Added pair: #JNJ (payout: 50%)
+2025-05-07 18:31:50,059 - DEBUG - Added pair: #JNJ_otc (payout: 92%)
+2025-05-07 18:31:50,060 - DEBUG - Added pair: #JPM (payout: 50%)
+2025-05-07 18:31:50,060 - DEBUG - Added pair: #MCD (payout: 50%)
+2025-05-07 18:31:50,060 - DEBUG - Added pair: #MCD_otc (payout: 87%)
+2025-05-07 18:31:50,060 - DEBUG - Added pair: #MSFT (payout: 50%)
+2025-05-07 18:31:50,060 - DEBUG - Added pair: #MSFT_otc (payout: 69%)
+2025-05-07 18:31:50,060 - DEBUG - Added pair: #PFE (payout: 41%)
+2025-05-07 18:31:50,061 - DEBUG - Added pair: #PFE_otc (payout: 74%)
+2025-05-07 18:31:50,061 - DEBUG - Added pair: #TSLA (payout: 50%)
+2025-05-07 18:31:50,061 - DEBUG - Added pair: #TSLA_otc (payout: 56%)
+2025-05-07 18:31:50,061 - DEBUG - Added pair: #XOM (payout: 45%)
+2025-05-07 18:31:50,061 - DEBUG - Added pair: #XOM_otc (payout: 82%)
+2025-05-07 18:31:50,061 - DEBUG - Added pair: 100GBP (payout: 45%)
+2025-05-07 18:31:50,062 - DEBUG - Added pair: 100GBP_otc (payout: 45%)
+2025-05-07 18:31:50,062 - DEBUG - Added pair: ADA-USD_otc (payout: 53%)
+2025-05-07 18:31:50,062 - DEBUG - Added pair: AEDCNY_otc (payout: 92%)
+2025-05-07 18:31:50,062 - DEBUG - Added pair: AEX25 (payout: 45%)
+2025-05-07 18:31:50,062 - DEBUG - Added pair: AMD_otc (payout: 67%)
+2025-05-07 18:31:50,062 - DEBUG - Added pair: AMZN_otc (payout: 92%)
+2025-05-07 18:31:50,063 - DEBUG - Added pair: AUDCAD (payout: 57%)
+2025-05-07 18:31:50,063 - DEBUG - Added pair: AUDCAD_otc (payout: 92%)
+2025-05-07 18:31:50,063 - DEBUG - Added pair: AUDCHF (payout: 85%)
+2025-05-07 18:31:50,063 - DEBUG - Added pair: AUDCHF_otc (payout: 73%)
+2025-05-07 18:31:50,063 - DEBUG - Added pair: AUDJPY (payout: 46%)
+2025-05-07 18:31:50,063 - DEBUG - Added pair: AUDJPY_otc (payout: 49%)
+2025-05-07 18:31:50,064 - DEBUG - Added pair: AUDNZD_otc (payout: 80%)
+2025-05-07 18:31:50,064 - DEBUG - Added pair: AUDUSD (payout: 80%)
+2025-05-07 18:31:50,064 - DEBUG - Added pair: AUDUSD_otc (payout: 92%)
+2025-05-07 18:31:50,064 - DEBUG - Added pair: AUS200 (payout: 37%)
+2025-05-07 18:31:50,064 - DEBUG - Added pair: AUS200_otc (payout: 67%)
+2025-05-07 18:31:50,065 - DEBUG - Added pair: AVAX_otc (payout: 59%)
+2025-05-07 18:31:50,065 - DEBUG - Added pair: BABA (payout: 50%)
+2025-05-07 18:31:50,065 - DEBUG - Added pair: BABA_otc (payout: 79%)
+2025-05-07 18:31:50,065 - DEBUG - Added pair: BCHEUR (payout: 15%)
+2025-05-07 18:31:50,065 - DEBUG - Added pair: BCHGBP (payout: 15%)
+2025-05-07 18:31:50,065 - DEBUG - Added pair: BCHJPY (payout: 15%)
+2025-05-07 18:31:50,066 - DEBUG - Added pair: BHDCNY_otc (payout: 92%)
+2025-05-07 18:31:50,066 - DEBUG - Added pair: BITB_otc (payout: 92%)
+2025-05-07 18:31:50,066 - DEBUG - Added pair: BNB-USD_otc (payout: 92%)
+2025-05-07 18:31:50,066 - DEBUG - Added pair: BTCGBP (payout: 15%)
+2025-05-07 18:31:50,066 - DEBUG - Added pair: BTCJPY (payout: 15%)
+2025-05-07 18:31:50,067 - DEBUG - Added pair: BTCUSD (payout: 15%)
+2025-05-07 18:31:50,067 - DEBUG - Added pair: BTCUSD_otc (payout: 92%)
+2025-05-07 18:31:50,067 - DEBUG - Added pair: CAC40 (payout: 45%)
+2025-05-07 18:31:50,067 - DEBUG - Added pair: CADCHF (payout: 85%)
+2025-05-07 18:31:50,067 - DEBUG - Added pair: CADCHF_otc (payout: 42%)
+2025-05-07 18:31:50,067 - DEBUG - Added pair: CADJPY (payout: 46%)
+2025-05-07 18:31:50,068 - DEBUG - Added pair: CADJPY_otc (payout: 92%)
+2025-05-07 18:31:50,068 - DEBUG - Added pair: CHFJPY (payout: 82%)
+2025-05-07 18:31:50,068 - DEBUG - Added pair: CHFJPY_otc (payout: 92%)
+2025-05-07 18:31:50,068 - DEBUG - Added pair: CHFNOK_otc (payout: 64%)
+2025-05-07 18:31:50,068 - DEBUG - Added pair: CITI (payout: 50%)
+2025-05-07 18:31:50,068 - DEBUG - Added pair: CITI_otc (payout: 90%)
+2025-05-07 18:31:50,069 - DEBUG - Added pair: COIN_otc (payout: 47%)
+2025-05-07 18:31:50,069 - DEBUG - Added pair: D30EUR (payout: 45%)
+2025-05-07 18:31:50,069 - DEBUG - Added pair: D30EUR_otc (payout: 45%)
+2025-05-07 18:31:50,069 - DEBUG - Added pair: DASH_USD (payout: 25%)
+2025-05-07 18:31:50,069 - DEBUG - Added pair: DJI30 (payout: 45%)
+2025-05-07 18:31:50,070 - DEBUG - Added pair: DJI30_otc (payout: 45%)
+2025-05-07 18:31:50,070 - DEBUG - Added pair: DOGE_otc (payout: 92%)
+2025-05-07 18:31:50,070 - DEBUG - Added pair: DOTUSD_otc (payout: 92%)
+2025-05-07 18:31:50,070 - DEBUG - Added pair: E35EUR (payout: 45%)
+2025-05-07 18:31:50,070 - DEBUG - Added pair: E35EUR_otc (payout: 45%)
+2025-05-07 18:31:50,070 - DEBUG - Added pair: E50EUR (payout: 45%)
+2025-05-07 18:31:50,071 - DEBUG - Added pair: E50EUR_otc (payout: 45%)
+2025-05-07 18:31:50,071 - DEBUG - Added pair: ETHUSD (payout: 40%)
+2025-05-07 18:31:50,071 - DEBUG - Added pair: ETHUSD_otc (payout: 50%)
+2025-05-07 18:31:50,071 - DEBUG - Added pair: EURAUD (payout: 47%)
+2025-05-07 18:31:50,071 - DEBUG - Added pair: EURCAD (payout: 57%)
+2025-05-07 18:31:50,071 - DEBUG - Added pair: EURCHF (payout: 20%)
+2025-05-07 18:31:50,072 - DEBUG - Added pair: EURCHF_otc (payout: 62%)
+2025-05-07 18:31:50,072 - DEBUG - Added pair: EURGBP (payout: 81%)
+2025-05-07 18:31:50,072 - DEBUG - Added pair: EURGBP_otc (payout: 62%)
+2025-05-07 18:31:50,072 - DEBUG - Added pair: EURHUF_otc (payout: 87%)
+2025-05-07 18:31:50,072 - DEBUG - Added pair: EURJPY (payout: 50%)
+2025-05-07 18:31:50,072 - DEBUG - Added pair: EURJPY_otc (payout: 92%)
+2025-05-07 18:31:50,073 - DEBUG - Added pair: EURNZD_otc (payout: 92%)
+2025-05-07 18:31:50,073 - DEBUG - Added pair: EURRUB_otc (payout: 76%)
+2025-05-07 18:31:50,073 - DEBUG - Added pair: EURTRY_otc (payout: 92%)
+2025-05-07 18:31:50,073 - DEBUG - Added pair: EURUSD (payout: 85%)
+2025-05-07 18:31:50,073 - DEBUG - Added pair: EURUSD_otc (payout: 92%)
+2025-05-07 18:31:50,073 - DEBUG - Added pair: F40EUR (payout: 45%)
+2025-05-07 18:31:50,074 - DEBUG - Added pair: F40EUR_otc (payout: 45%)
+2025-05-07 18:31:50,074 - DEBUG - Added pair: FDX_otc (payout: 50%)
+2025-05-07 18:31:50,074 - DEBUG - Added pair: GBPAUD (payout: 65%)
+2025-05-07 18:31:50,074 - DEBUG - Added pair: GBPAUD_otc (payout: 92%)
+2025-05-07 18:31:50,074 - DEBUG - Added pair: GBPCAD (payout: 65%)
+2025-05-07 18:31:50,075 - DEBUG - Added pair: GBPCHF (payout: 48%)
+2025-05-07 18:31:50,075 - DEBUG - Added pair: GBPJPY (payout: 78%)
+2025-05-07 18:31:50,075 - DEBUG - Added pair: GBPJPY_otc (payout: 86%)
+2025-05-07 18:31:50,075 - DEBUG - Added pair: GBPUSD (payout: 72%)
+2025-05-07 18:31:50,075 - DEBUG - Added pair: GBPUSD_otc (payout: 56%)
+2025-05-07 18:31:50,076 - DEBUG - Added pair: GME_otc (payout: 43%)
+2025-05-07 18:31:50,076 - DEBUG - Added pair: H33HKD (payout: 45%)
+2025-05-07 18:31:50,076 - DEBUG - Added pair: IRRUSD_otc (payout: 73%)
+2025-05-07 18:31:50,076 - DEBUG - Added pair: JODCNY_otc (payout: 45%)
+2025-05-07 18:31:50,076 - DEBUG - Added pair: JPN225 (payout: 45%)
+2025-05-07 18:31:50,076 - DEBUG - Added pair: JPN225_otc (payout: 45%)
+2025-05-07 18:31:50,077 - DEBUG - Added pair: KESUSD_otc (payout: 92%)
+2025-05-07 18:31:50,077 - DEBUG - Added pair: LBPUSD_otc (payout: 85%)
+2025-05-07 18:31:50,077 - DEBUG - Added pair: LINK_otc (payout: 71%)
+2025-05-07 18:31:50,077 - DEBUG - Added pair: LNKUSD (payout: 15%)
+2025-05-07 18:31:50,077 - DEBUG - Added pair: LTCUSD_otc (payout: 64%)
+2025-05-07 18:31:50,078 - DEBUG - Added pair: MADUSD_otc (payout: 39%)
+2025-05-07 18:31:50,078 - DEBUG - Added pair: MARA_otc (payout: 60%)
+2025-05-07 18:31:50,078 - DEBUG - Added pair: MATIC_otc (payout: 63%)
+2025-05-07 18:31:50,078 - DEBUG - Added pair: NASUSD (payout: 45%)
+2025-05-07 18:31:50,078 - DEBUG - Added pair: NASUSD_otc (payout: 45%)
+2025-05-07 18:31:50,078 - DEBUG - Added pair: NFLX (payout: 50%)
+2025-05-07 18:31:50,079 - DEBUG - Added pair: NFLX_otc (payout: 60%)
+2025-05-07 18:31:50,079 - DEBUG - Added pair: NGNUSD_otc (payout: 92%)
+2025-05-07 18:31:50,079 - DEBUG - Added pair: NZDJPY_otc (payout: 92%)
+2025-05-07 18:31:50,079 - DEBUG - Added pair: NZDUSD_otc (payout: 43%)
+2025-05-07 18:31:50,079 - DEBUG - Added pair: OMRCNY_otc (payout: 92%)
+2025-05-07 18:31:50,080 - DEBUG - Added pair: PLTR_otc (payout: 87%)
+2025-05-07 18:31:50,080 - DEBUG - Added pair: QARCNY_otc (payout: 83%)
+2025-05-07 18:31:50,080 - DEBUG - Added pair: SARCNY_otc (payout: 92%)
+2025-05-07 18:31:50,080 - DEBUG - Added pair: SMI20 (payout: 45%)
+2025-05-07 18:31:50,080 - DEBUG - Added pair: SOL-USD_otc (payout: 47%)
+2025-05-07 18:31:50,080 - DEBUG - Added pair: SP500 (payout: 45%)
+2025-05-07 18:31:50,081 - DEBUG - Added pair: SP500_otc (payout: 45%)
+2025-05-07 18:31:50,081 - DEBUG - Added pair: SYPUSD_otc (payout: 92%)
+2025-05-07 18:31:50,081 - DEBUG - Added pair: TNDUSD_otc (payout: 85%)
+2025-05-07 18:31:50,081 - DEBUG - Added pair: TON-USD_otc (payout: 92%)
+2025-05-07 18:31:50,081 - DEBUG - Added pair: TRX-USD_otc (payout: 46%)
+2025-05-07 18:31:50,082 - DEBUG - Added pair: UAHUSD_otc (payout: 87%)
+2025-05-07 18:31:50,082 - DEBUG - Added pair: UKBrent (payout: 50%)
+2025-05-07 18:31:50,082 - DEBUG - Added pair: UKBrent_otc (payout: 80%)
+2025-05-07 18:31:50,082 - DEBUG - Added pair: USCrude (payout: 50%)
+2025-05-07 18:31:50,082 - DEBUG - Added pair: USCrude_otc (payout: 80%)
+2025-05-07 18:31:50,082 - DEBUG - Added pair: USDARS_otc (payout: 40%)
+2025-05-07 18:31:50,083 - DEBUG - Added pair: USDBDT_otc (payout: 65%)
+2025-05-07 18:31:50,083 - DEBUG - Added pair: USDBRL_otc (payout: 75%)
+2025-05-07 18:31:50,083 - DEBUG - Added pair: USDCAD (payout: 51%)
+2025-05-07 18:31:50,083 - DEBUG - Added pair: USDCAD_otc (payout: 84%)
+2025-05-07 18:31:50,083 - DEBUG - Added pair: USDCHF (payout: 27%)
+2025-05-07 18:31:50,084 - DEBUG - Added pair: USDCHF_otc (payout: 66%)
+2025-05-07 18:31:50,084 - DEBUG - Added pair: USDCLP_otc (payout: 89%)
+2025-05-07 18:31:50,084 - DEBUG - Added pair: USDCNH_otc (payout: 92%)
+2025-05-07 18:31:50,084 - DEBUG - Added pair: USDCOP_otc (payout: 38%)
+2025-05-07 18:31:50,084 - DEBUG - Added pair: USDDZD_otc (payout: 92%)
+2025-05-07 18:31:50,084 - DEBUG - Added pair: USDEGP_otc (payout: 92%)
+2025-05-07 18:31:50,085 - DEBUG - Added pair: USDIDR_otc (payout: 85%)
+2025-05-07 18:31:50,085 - DEBUG - Added pair: USDINR_otc (payout: 83%)
+2025-05-07 18:31:50,085 - DEBUG - Added pair: USDJPY (payout: 75%)
+2025-05-07 18:31:50,085 - DEBUG - Added pair: USDJPY_otc (payout: 76%)
+2025-05-07 18:31:50,085 - DEBUG - Added pair: USDMXN_otc (payout: 92%)
+2025-05-07 18:31:50,086 - DEBUG - Added pair: USDMYR_otc (payout: 86%)
+2025-05-07 18:31:50,086 - DEBUG - Added pair: USDPHP_otc (payout: 74%)
+2025-05-07 18:31:50,086 - DEBUG - Added pair: USDPKR_otc (payout: 76%)
+2025-05-07 18:31:50,087 - DEBUG - Added pair: USDRUB_otc (payout: 91%)
+2025-05-07 18:31:50,087 - DEBUG - Added pair: USDSGD_otc (payout: 87%)
+2025-05-07 18:31:50,087 - DEBUG - Added pair: USDTHB_otc (payout: 46%)
+2025-05-07 18:31:50,087 - DEBUG - Added pair: USDVND_otc (payout: 67%)
+2025-05-07 18:31:50,087 - DEBUG - Added pair: VISA_otc (payout: 68%)
+2025-05-07 18:31:50,088 - DEBUG - Added pair: VIX_otc (payout: 39%)
+2025-05-07 18:31:50,088 - DEBUG - Added pair: XAGEUR (payout: 50%)
+2025-05-07 18:31:50,088 - DEBUG - Added pair: XAGUSD (payout: 50%)
+2025-05-07 18:31:50,088 - DEBUG - Added pair: XAGUSD_otc (payout: 80%)
+2025-05-07 18:31:50,088 - DEBUG - Added pair: XAUEUR (payout: 50%)
+2025-05-07 18:31:50,089 - DEBUG - Added pair: XAUUSD (payout: 50%)
+2025-05-07 18:31:50,089 - DEBUG - Added pair: XAUUSD_otc (payout: 80%)
+2025-05-07 18:31:50,089 - DEBUG - Added pair: XNGUSD (payout: 45%)
+2025-05-07 18:31:50,089 - DEBUG - Added pair: XNGUSD_otc (payout: 45%)
+2025-05-07 18:31:50,089 - DEBUG - Added pair: XPDUSD (payout: 45%)
+2025-05-07 18:31:50,089 - DEBUG - Added pair: XPDUSD_otc (payout: 45%)
+2025-05-07 18:31:50,090 - DEBUG - Added pair: XPTUSD (payout: 45%)
+2025-05-07 18:31:50,090 - DEBUG - Added pair: XPTUSD_otc (payout: 45%)
+2025-05-07 18:31:50,090 - DEBUG - Added pair: YERUSD_otc (payout: 92%)
+2025-05-07 18:31:50,090 - DEBUG - Added pair: ZARUSD_otc (payout: 31%)
+2025-05-07 18:31:50,092 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 18:31:52,425 - ERROR - Error fetching data for #AAPL: 'bool' object is not iterable
+2025-05-07 18:31:56,371 - ERROR - Error fetching data for #AAPL_otc: 'bool' object is not iterable
+2025-05-07 18:31:58,602 - ERROR - Error fetching data for #AXP: 'bool' object is not iterable
+2025-05-07 18:32:02,949 - ERROR - Error fetching data for #AXP_otc: 'bool' object is not iterable
+2025-05-07 18:32:05,491 - ERROR - Error fetching data for #BA: 'bool' object is not iterable
+2025-05-07 18:32:09,384 - ERROR - Error fetching data for #BA_otc: 'bool' object is not iterable
+2025-05-07 18:32:12,026 - ERROR - Error fetching data for #CSCO: 'bool' object is not iterable
+2025-05-07 18:32:15,875 - ERROR - Error fetching data for #CSCO_otc: 'bool' object is not iterable
+2025-05-07 18:32:18,507 - ERROR - Error fetching data for #FB: 'bool' object is not iterable
+2025-05-07 18:32:22,453 - ERROR - Error fetching data for #FB_otc: 'bool' object is not iterable
+2025-05-07 18:32:25,016 - ERROR - Error fetching data for #INTC: 'bool' object is not iterable
+2025-05-07 18:32:29,071 - ERROR - Error fetching data for #INTC_otc: 'bool' object is not iterable
+2025-05-07 18:32:31,906 - ERROR - Error fetching data for #JNJ: 'bool' object is not iterable
+2025-05-07 18:32:35,651 - ERROR - Error fetching data for #JNJ_otc: 'bool' object is not iterable
+2025-05-07 18:32:38,485 - ERROR - Error fetching data for #JPM: 'bool' object is not iterable
+2025-05-07 18:32:41,036 - ERROR - Error fetching data for #MCD: 'bool' object is not iterable
+2025-05-07 18:32:44,718 - ERROR - Error fetching data for #MCD_otc: 'bool' object is not iterable
+2025-05-07 18:32:47,458 - ERROR - Error fetching data for #MSFT: 'bool' object is not iterable
+2025-05-07 18:32:51,424 - ERROR - Error fetching data for #MSFT_otc: 'bool' object is not iterable
+2025-05-07 18:32:53,862 - ERROR - Error fetching data for #PFE: 'bool' object is not iterable
+2025-05-07 18:32:58,242 - ERROR - Error fetching data for #PFE_otc: 'bool' object is not iterable
+2025-05-07 18:33:01,288 - ERROR - Error fetching data for #TSLA: 'bool' object is not iterable
+2025-05-07 18:33:05,775 - ERROR - Error fetching data for #TSLA_otc: 'bool' object is not iterable
+2025-05-07 18:33:08,622 - ERROR - Error fetching data for #XOM: 'bool' object is not iterable
+2025-05-07 18:33:12,477 - ERROR - Error fetching data for #XOM_otc: 'bool' object is not iterable
+2025-05-07 18:33:15,219 - ERROR - Error fetching data for 100GBP: 'bool' object is not iterable
+2025-05-07 18:33:19,010 - ERROR - Error fetching data for 100GBP_otc: 'bool' object is not iterable
+2025-05-07 18:33:23,191 - ERROR - Error fetching data for ADA-USD_otc: 'bool' object is not iterable
+2025-05-07 18:33:27,665 - ERROR - Error fetching data for AEDCNY_otc: 'bool' object is not iterable
+2025-05-07 18:33:30,013 - ERROR - Error fetching data for AEX25: 'bool' object is not iterable
+2025-05-07 18:33:35,193 - ERROR - Error fetching data for AMD_otc: 'bool' object is not iterable
+2025-05-07 18:33:40,372 - ERROR - Error fetching data for AMZN_otc: 'bool' object is not iterable
+2025-05-07 18:33:44,837 - ERROR - Error fetching data for AUDCAD: 'bool' object is not iterable
+2025-05-07 18:33:49,205 - ERROR - Error fetching data for AUDCAD_otc: 'bool' object is not iterable
+2025-05-07 18:33:52,755 - ERROR - Error fetching data for AUDCHF: 'bool' object is not iterable
+2025-05-07 18:33:56,699 - ERROR - Error fetching data for AUDCHF_otc: 'bool' object is not iterable
+2025-05-07 18:34:00,749 - ERROR - Error fetching data for AUDJPY: 'bool' object is not iterable
+2025-05-07 18:34:04,801 - ERROR - Error fetching data for AUDJPY_otc: 'bool' object is not iterable
+2025-05-07 18:34:08,763 - ERROR - Error fetching data for AUDNZD_otc: 'bool' object is not iterable
+2025-05-07 18:34:12,108 - ERROR - Error fetching data for AUDUSD: 'bool' object is not iterable
+2025-05-07 18:34:16,166 - ERROR - Error fetching data for AUDUSD_otc: 'bool' object is not iterable
+2025-05-07 18:34:18,519 - ERROR - Error fetching data for AUS200: 'bool' object is not iterable
+2025-05-07 18:34:22,968 - ERROR - Error fetching data for AUS200_otc: 'bool' object is not iterable
+2025-05-07 18:34:28,019 - ERROR - Error fetching data for AVAX_otc: 'bool' object is not iterable
+2025-05-07 18:34:31,186 - ERROR - Error fetching data for BABA: 'bool' object is not iterable
+2025-05-07 18:34:35,236 - ERROR - Error fetching data for BABA_otc: 'bool' object is not iterable
+2025-05-07 18:34:37,971 - ERROR - Error fetching data for BCHEUR: 'bool' object is not iterable
+2025-05-07 18:34:40,200 - ERROR - Error fetching data for BCHGBP: 'bool' object is not iterable
+2025-05-07 18:34:42,738 - ERROR - Error fetching data for BCHJPY: 'bool' object is not iterable
+2025-05-07 18:34:46,811 - ERROR - Error fetching data for BHDCNY_otc: 'bool' object is not iterable
+2025-05-07 18:34:51,088 - ERROR - Error fetching data for BITB_otc: 'bool' object is not iterable
+2025-05-07 18:34:55,396 - ERROR - Error fetching data for BNB-USD_otc: 'bool' object is not iterable
+2025-05-07 18:34:58,050 - ERROR - Error fetching data for BTCGBP: 'bool' object is not iterable
+2025-05-07 18:35:00,602 - ERROR - Error fetching data for BTCJPY: 'bool' object is not iterable
+2025-05-07 18:35:07,009 - ERROR - Error fetching data for BTCUSD: 'bool' object is not iterable
+2025-05-07 18:35:13,906 - INFO - Starting trading bot...
+2025-05-07 18:35:13,911 - INFO - Successfully connected to PocketOption API
+2025-05-07 18:35:13,911 - INFO - Waiting for websocket connection...
+2025-05-07 18:35:14,926 - INFO - Waiting for websocket connection...
+2025-05-07 18:35:15,932 - INFO - Waiting for PayoutData...
+2025-05-07 18:35:17,953 - DEBUG - Added pair: #AAPL (payout: 50%)
+2025-05-07 18:35:17,954 - DEBUG - Added pair: #AAPL_otc (payout: 82%)
+2025-05-07 18:35:17,954 - DEBUG - Added pair: #AXP (payout: 50%)
+2025-05-07 18:35:17,954 - DEBUG - Added pair: #AXP_otc (payout: 92%)
+2025-05-07 18:35:17,954 - DEBUG - Added pair: #BA (payout: 50%)
+2025-05-07 18:35:17,955 - DEBUG - Added pair: #BA_otc (payout: 81%)
+2025-05-07 18:35:17,955 - DEBUG - Added pair: #CSCO (payout: 45%)
+2025-05-07 18:35:17,955 - DEBUG - Added pair: #CSCO_otc (payout: 88%)
+2025-05-07 18:35:17,955 - DEBUG - Added pair: #FB (payout: 50%)
+2025-05-07 18:35:17,956 - DEBUG - Added pair: #FB_otc (payout: 70%)
+2025-05-07 18:35:17,956 - DEBUG - Added pair: #INTC (payout: 25%)
+2025-05-07 18:35:17,956 - DEBUG - Added pair: #INTC_otc (payout: 79%)
+2025-05-07 18:35:17,956 - DEBUG - Added pair: #JNJ (payout: 50%)
+2025-05-07 18:35:17,956 - DEBUG - Added pair: #JNJ_otc (payout: 92%)
+2025-05-07 18:35:17,956 - DEBUG - Added pair: #JPM (payout: 50%)
+2025-05-07 18:35:17,957 - DEBUG - Added pair: #MCD (payout: 50%)
+2025-05-07 18:35:17,957 - DEBUG - Added pair: #MCD_otc (payout: 86%)
+2025-05-07 18:35:17,957 - DEBUG - Added pair: #MSFT (payout: 50%)
+2025-05-07 18:35:17,957 - DEBUG - Added pair: #MSFT_otc (payout: 69%)
+2025-05-07 18:35:17,957 - DEBUG - Added pair: #PFE (payout: 47%)
+2025-05-07 18:35:17,958 - DEBUG - Added pair: #PFE_otc (payout: 76%)
+2025-05-07 18:35:17,958 - DEBUG - Added pair: #TSLA (payout: 50%)
+2025-05-07 18:35:17,958 - DEBUG - Added pair: #TSLA_otc (payout: 51%)
+2025-05-07 18:35:17,958 - DEBUG - Added pair: #XOM (payout: 45%)
+2025-05-07 18:35:17,958 - DEBUG - Added pair: #XOM_otc (payout: 88%)
+2025-05-07 18:35:17,958 - DEBUG - Added pair: 100GBP (payout: 45%)
+2025-05-07 18:35:17,959 - DEBUG - Added pair: 100GBP_otc (payout: 45%)
+2025-05-07 18:35:17,959 - DEBUG - Added pair: ADA-USD_otc (payout: 52%)
+2025-05-07 18:35:17,959 - DEBUG - Added pair: AEDCNY_otc (payout: 92%)
+2025-05-07 18:35:17,959 - DEBUG - Added pair: AEX25 (payout: 45%)
+2025-05-07 18:35:17,960 - DEBUG - Added pair: AMD_otc (payout: 79%)
+2025-05-07 18:35:17,960 - DEBUG - Added pair: AMZN_otc (payout: 92%)
+2025-05-07 18:35:17,960 - DEBUG - Added pair: AUDCAD (payout: 54%)
+2025-05-07 18:35:17,960 - DEBUG - Added pair: AUDCAD_otc (payout: 92%)
+2025-05-07 18:35:17,960 - DEBUG - Added pair: AUDCHF (payout: 85%)
+2025-05-07 18:35:17,961 - DEBUG - Added pair: AUDCHF_otc (payout: 74%)
+2025-05-07 18:35:17,961 - DEBUG - Added pair: AUDJPY (payout: 43%)
+2025-05-07 18:35:17,961 - DEBUG - Added pair: AUDJPY_otc (payout: 60%)
+2025-05-07 18:35:17,961 - DEBUG - Added pair: AUDNZD_otc (payout: 92%)
+2025-05-07 18:35:17,961 - DEBUG - Added pair: AUDUSD (payout: 80%)
+2025-05-07 18:35:17,962 - DEBUG - Added pair: AUDUSD_otc (payout: 92%)
+2025-05-07 18:35:17,962 - DEBUG - Added pair: AUS200 (payout: 37%)
+2025-05-07 18:35:17,962 - DEBUG - Added pair: AUS200_otc (payout: 67%)
+2025-05-07 18:35:17,962 - DEBUG - Added pair: AVAX_otc (payout: 53%)
+2025-05-07 18:35:17,962 - DEBUG - Added pair: BABA (payout: 50%)
+2025-05-07 18:35:17,962 - DEBUG - Added pair: BABA_otc (payout: 88%)
+2025-05-07 18:35:17,963 - DEBUG - Added pair: BCHEUR (payout: 15%)
+2025-05-07 18:35:17,963 - DEBUG - Added pair: BCHGBP (payout: 15%)
+2025-05-07 18:35:17,963 - DEBUG - Added pair: BCHJPY (payout: 15%)
+2025-05-07 18:35:17,963 - DEBUG - Added pair: BHDCNY_otc (payout: 92%)
+2025-05-07 18:35:17,963 - DEBUG - Added pair: BITB_otc (payout: 92%)
+2025-05-07 18:35:17,964 - DEBUG - Added pair: BNB-USD_otc (payout: 92%)
+2025-05-07 18:35:17,964 - DEBUG - Added pair: BTCGBP (payout: 15%)
+2025-05-07 18:35:17,964 - DEBUG - Added pair: BTCJPY (payout: 15%)
+2025-05-07 18:35:17,964 - DEBUG - Added pair: BTCUSD (payout: 15%)
+2025-05-07 18:35:17,964 - DEBUG - Added pair: BTCUSD_otc (payout: 92%)
+2025-05-07 18:35:17,964 - DEBUG - Added pair: CAC40 (payout: 45%)
+2025-05-07 18:35:17,965 - DEBUG - Added pair: CADCHF (payout: 85%)
+2025-05-07 18:35:17,965 - DEBUG - Added pair: CADCHF_otc (payout: 41%)
+2025-05-07 18:35:17,965 - DEBUG - Added pair: CADJPY (payout: 47%)
+2025-05-07 18:35:17,965 - DEBUG - Added pair: CADJPY_otc (payout: 92%)
+2025-05-07 18:35:17,965 - DEBUG - Added pair: CHFJPY (payout: 82%)
+2025-05-07 18:35:17,966 - DEBUG - Added pair: CHFJPY_otc (payout: 92%)
+2025-05-07 18:35:17,966 - DEBUG - Added pair: CHFNOK_otc (payout: 64%)
+2025-05-07 18:35:17,966 - DEBUG - Added pair: CITI (payout: 50%)
+2025-05-07 18:35:17,966 - DEBUG - Added pair: CITI_otc (payout: 92%)
+2025-05-07 18:35:17,966 - DEBUG - Added pair: COIN_otc (payout: 47%)
+2025-05-07 18:35:17,967 - DEBUG - Added pair: D30EUR (payout: 45%)
+2025-05-07 18:35:17,967 - DEBUG - Added pair: D30EUR_otc (payout: 45%)
+2025-05-07 18:35:17,967 - DEBUG - Added pair: DASH_USD (payout: 25%)
+2025-05-07 18:35:17,967 - DEBUG - Added pair: DJI30 (payout: 45%)
+2025-05-07 18:35:17,967 - DEBUG - Added pair: DJI30_otc (payout: 45%)
+2025-05-07 18:35:17,968 - DEBUG - Added pair: DOGE_otc (payout: 92%)
+2025-05-07 18:35:17,968 - DEBUG - Added pair: DOTUSD_otc (payout: 92%)
+2025-05-07 18:35:17,968 - DEBUG - Added pair: E35EUR (payout: 45%)
+2025-05-07 18:35:17,969 - DEBUG - Added pair: E35EUR_otc (payout: 45%)
+2025-05-07 18:35:17,969 - DEBUG - Added pair: E50EUR (payout: 45%)
+2025-05-07 18:35:17,969 - DEBUG - Added pair: E50EUR_otc (payout: 45%)
+2025-05-07 18:35:17,969 - DEBUG - Added pair: ETHUSD (payout: 40%)
+2025-05-07 18:35:17,970 - DEBUG - Added pair: ETHUSD_otc (payout: 50%)
+2025-05-07 18:35:17,970 - DEBUG - Added pair: EURAUD (payout: 63%)
+2025-05-07 18:35:17,970 - DEBUG - Added pair: EURCAD (payout: 61%)
+2025-05-07 18:35:17,971 - DEBUG - Added pair: EURCHF (payout: 20%)
+2025-05-07 18:35:17,971 - DEBUG - Added pair: EURCHF_otc (payout: 62%)
+2025-05-07 18:35:17,971 - DEBUG - Added pair: EURGBP (payout: 81%)
+2025-05-07 18:35:17,971 - DEBUG - Added pair: EURGBP_otc (payout: 62%)
+2025-05-07 18:35:17,972 - DEBUG - Added pair: EURHUF_otc (payout: 91%)
+2025-05-07 18:35:17,972 - DEBUG - Added pair: EURJPY (payout: 50%)
+2025-05-07 18:35:17,972 - DEBUG - Added pair: EURJPY_otc (payout: 92%)
+2025-05-07 18:35:17,972 - DEBUG - Added pair: EURNZD_otc (payout: 84%)
+2025-05-07 18:35:17,972 - DEBUG - Added pair: EURRUB_otc (payout: 77%)
+2025-05-07 18:35:17,973 - DEBUG - Added pair: EURTRY_otc (payout: 92%)
+2025-05-07 18:35:17,973 - DEBUG - Added pair: EURUSD (payout: 85%)
+2025-05-07 18:35:17,973 - DEBUG - Added pair: EURUSD_otc (payout: 92%)
+2025-05-07 18:35:17,973 - DEBUG - Added pair: F40EUR (payout: 45%)
+2025-05-07 18:35:17,973 - DEBUG - Added pair: F40EUR_otc (payout: 45%)
+2025-05-07 18:35:17,974 - DEBUG - Added pair: FDX_otc (payout: 50%)
+2025-05-07 18:35:17,974 - DEBUG - Added pair: GBPAUD (payout: 65%)
+2025-05-07 18:35:17,974 - DEBUG - Added pair: GBPAUD_otc (payout: 92%)
+2025-05-07 18:35:17,974 - DEBUG - Added pair: GBPCAD (payout: 58%)
+2025-05-07 18:35:17,974 - DEBUG - Added pair: GBPCHF (payout: 48%)
+2025-05-07 18:35:17,975 - DEBUG - Added pair: GBPJPY (payout: 78%)
+2025-05-07 18:35:17,975 - DEBUG - Added pair: GBPJPY_otc (payout: 86%)
+2025-05-07 18:35:17,975 - DEBUG - Added pair: GBPUSD (payout: 76%)
+2025-05-07 18:35:17,975 - DEBUG - Added pair: GBPUSD_otc (payout: 55%)
+2025-05-07 18:35:17,976 - DEBUG - Added pair: GME_otc (payout: 45%)
+2025-05-07 18:35:17,976 - DEBUG - Added pair: H33HKD (payout: 45%)
+2025-05-07 18:35:17,976 - DEBUG - Added pair: IRRUSD_otc (payout: 73%)
+2025-05-07 18:35:17,977 - DEBUG - Added pair: JODCNY_otc (payout: 59%)
+2025-05-07 18:35:17,977 - DEBUG - Added pair: JPN225 (payout: 45%)
+2025-05-07 18:35:17,977 - DEBUG - Added pair: JPN225_otc (payout: 45%)
+2025-05-07 18:35:17,977 - DEBUG - Added pair: KESUSD_otc (payout: 74%)
+2025-05-07 18:35:17,978 - DEBUG - Added pair: LBPUSD_otc (payout: 85%)
+2025-05-07 18:35:17,978 - DEBUG - Added pair: LINK_otc (payout: 71%)
+2025-05-07 18:35:17,979 - DEBUG - Added pair: LNKUSD (payout: 15%)
+2025-05-07 18:35:17,979 - DEBUG - Added pair: LTCUSD_otc (payout: 65%)
+2025-05-07 18:35:17,980 - DEBUG - Added pair: MADUSD_otc (payout: 39%)
+2025-05-07 18:35:17,980 - DEBUG - Added pair: MARA_otc (payout: 53%)
+2025-05-07 18:35:17,980 - DEBUG - Added pair: MATIC_otc (payout: 59%)
+2025-05-07 18:35:17,981 - DEBUG - Added pair: NASUSD (payout: 45%)
+2025-05-07 18:35:17,981 - DEBUG - Added pair: NASUSD_otc (payout: 45%)
+2025-05-07 18:35:17,981 - DEBUG - Added pair: NFLX (payout: 50%)
+2025-05-07 18:35:17,982 - DEBUG - Added pair: NFLX_otc (payout: 51%)
+2025-05-07 18:35:17,982 - DEBUG - Added pair: NGNUSD_otc (payout: 92%)
+2025-05-07 18:35:17,982 - DEBUG - Added pair: NZDJPY_otc (payout: 92%)
+2025-05-07 18:35:17,983 - DEBUG - Added pair: NZDUSD_otc (payout: 51%)
+2025-05-07 18:35:17,983 - DEBUG - Added pair: OMRCNY_otc (payout: 92%)
+2025-05-07 18:35:17,983 - DEBUG - Added pair: PLTR_otc (payout: 84%)
+2025-05-07 18:35:17,983 - DEBUG - Added pair: QARCNY_otc (payout: 80%)
+2025-05-07 18:35:17,984 - DEBUG - Added pair: SARCNY_otc (payout: 92%)
+2025-05-07 18:35:17,984 - DEBUG - Added pair: SMI20 (payout: 45%)
+2025-05-07 18:35:17,984 - DEBUG - Added pair: SOL-USD_otc (payout: 47%)
+2025-05-07 18:35:17,985 - DEBUG - Added pair: SP500 (payout: 45%)
+2025-05-07 18:35:17,985 - DEBUG - Added pair: SP500_otc (payout: 45%)
+2025-05-07 18:35:17,985 - DEBUG - Added pair: SYPUSD_otc (payout: 92%)
+2025-05-07 18:35:17,986 - DEBUG - Added pair: TNDUSD_otc (payout: 85%)
+2025-05-07 18:35:17,986 - DEBUG - Added pair: TON-USD_otc (payout: 92%)
+2025-05-07 18:35:17,986 - DEBUG - Added pair: TRX-USD_otc (payout: 48%)
+2025-05-07 18:35:17,986 - DEBUG - Added pair: UAHUSD_otc (payout: 87%)
+2025-05-07 18:35:17,987 - DEBUG - Added pair: UKBrent (payout: 50%)
+2025-05-07 18:35:17,987 - DEBUG - Added pair: UKBrent_otc (payout: 80%)
+2025-05-07 18:35:17,987 - DEBUG - Added pair: USCrude (payout: 50%)
+2025-05-07 18:35:17,987 - DEBUG - Added pair: USCrude_otc (payout: 80%)
+2025-05-07 18:35:17,988 - DEBUG - Added pair: USDARS_otc (payout: 38%)
+2025-05-07 18:35:17,988 - DEBUG - Added pair: USDBDT_otc (payout: 72%)
+2025-05-07 18:35:17,988 - DEBUG - Added pair: USDBRL_otc (payout: 75%)
+2025-05-07 18:35:17,988 - DEBUG - Added pair: USDCAD (payout: 49%)
+2025-05-07 18:35:17,989 - DEBUG - Added pair: USDCAD_otc (payout: 83%)
+2025-05-07 18:35:17,989 - DEBUG - Added pair: USDCHF (payout: 26%)
+2025-05-07 18:35:17,989 - DEBUG - Added pair: USDCHF_otc (payout: 66%)
+2025-05-07 18:35:17,989 - DEBUG - Added pair: USDCLP_otc (payout: 89%)
+2025-05-07 18:35:17,989 - DEBUG - Added pair: USDCNH_otc (payout: 92%)
+2025-05-07 18:35:17,990 - DEBUG - Added pair: USDCOP_otc (payout: 45%)
+2025-05-07 18:35:17,990 - DEBUG - Added pair: USDDZD_otc (payout: 92%)
+2025-05-07 18:35:17,991 - DEBUG - Added pair: USDEGP_otc (payout: 92%)
+2025-05-07 18:35:17,991 - DEBUG - Added pair: USDIDR_otc (payout: 75%)
+2025-05-07 18:35:17,991 - DEBUG - Added pair: USDINR_otc (payout: 92%)
+2025-05-07 18:35:17,992 - DEBUG - Added pair: USDJPY (payout: 75%)
+2025-05-07 18:35:17,992 - DEBUG - Added pair: USDJPY_otc (payout: 77%)
+2025-05-07 18:35:17,992 - DEBUG - Added pair: USDMXN_otc (payout: 92%)
+2025-05-07 18:35:17,992 - DEBUG - Added pair: USDMYR_otc (payout: 92%)
+2025-05-07 18:35:17,992 - DEBUG - Added pair: USDPHP_otc (payout: 86%)
+2025-05-07 18:35:17,993 - DEBUG - Added pair: USDPKR_otc (payout: 79%)
+2025-05-07 18:35:17,993 - DEBUG - Added pair: USDRUB_otc (payout: 92%)
+2025-05-07 18:35:17,993 - DEBUG - Added pair: USDSGD_otc (payout: 92%)
+2025-05-07 18:35:17,993 - DEBUG - Added pair: USDTHB_otc (payout: 45%)
+2025-05-07 18:35:17,993 - DEBUG - Added pair: USDVND_otc (payout: 77%)
+2025-05-07 18:35:17,994 - DEBUG - Added pair: VISA_otc (payout: 65%)
+2025-05-07 18:35:17,994 - DEBUG - Added pair: VIX_otc (payout: 39%)
+2025-05-07 18:35:17,994 - DEBUG - Added pair: XAGEUR (payout: 50%)
+2025-05-07 18:35:17,995 - DEBUG - Added pair: XAGUSD (payout: 50%)
+2025-05-07 18:35:17,995 - DEBUG - Added pair: XAGUSD_otc (payout: 80%)
+2025-05-07 18:35:17,995 - DEBUG - Added pair: XAUEUR (payout: 50%)
+2025-05-07 18:35:17,996 - DEBUG - Added pair: XAUUSD (payout: 50%)
+2025-05-07 18:35:17,996 - DEBUG - Added pair: XAUUSD_otc (payout: 80%)
+2025-05-07 18:35:17,996 - DEBUG - Added pair: XNGUSD (payout: 45%)
+2025-05-07 18:35:17,996 - DEBUG - Added pair: XNGUSD_otc (payout: 45%)
+2025-05-07 18:35:17,996 - DEBUG - Added pair: XPDUSD (payout: 45%)
+2025-05-07 18:35:17,997 - DEBUG - Added pair: XPDUSD_otc (payout: 45%)
+2025-05-07 18:35:17,997 - DEBUG - Added pair: XPTUSD (payout: 45%)
+2025-05-07 18:35:17,997 - DEBUG - Added pair: XPTUSD_otc (payout: 45%)
+2025-05-07 18:35:17,997 - DEBUG - Added pair: YERUSD_otc (payout: 92%)
+2025-05-07 18:35:17,997 - DEBUG - Added pair: ZARUSD_otc (payout: 34%)
+2025-05-07 18:35:18,000 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 18:35:20,428 - ERROR - API returned boolean for #AAPL, likely an error
+2025-05-07 18:35:24,300 - ERROR - API returned boolean for #AAPL_otc, likely an error
+2025-05-07 18:35:26,645 - ERROR - API returned boolean for #AXP, likely an error
+2025-05-07 18:35:30,712 - ERROR - API returned boolean for #AXP_otc, likely an error
+2025-05-07 18:35:33,555 - ERROR - API returned boolean for #BA, likely an error
+2025-05-07 18:35:37,617 - ERROR - API returned boolean for #BA_otc, likely an error
+2025-05-07 18:35:40,963 - ERROR - API returned boolean for #CSCO, likely an error
+2025-05-07 18:35:44,917 - ERROR - API returned boolean for #CSCO_otc, likely an error
+2025-05-07 18:35:47,772 - ERROR - API returned boolean for #FB, likely an error
+2025-05-07 18:35:51,828 - ERROR - API returned boolean for #FB_otc, likely an error
+2025-05-07 18:35:55,772 - ERROR - API returned boolean for #INTC, likely an error
+2025-05-07 18:36:11,989 - ERROR - API returned boolean for #INTC_otc, likely an error
+2025-05-07 18:36:22,285 - ERROR - API returned boolean for #JNJ, likely an error
+2025-05-07 18:36:34,122 - ERROR - API returned boolean for #JNJ_otc, likely an error
+2025-05-07 18:36:41,694 - ERROR - API returned boolean for #JPM, likely an error
+2025-05-07 18:36:44,124 - ERROR - API returned boolean for #MCD, likely an error
+2025-05-07 18:36:47,910 - ERROR - API returned boolean for #MCD_otc, likely an error
+2025-05-07 18:36:51,258 - ERROR - API returned boolean for #MSFT, likely an error
+2025-05-07 18:36:55,098 - ERROR - API returned boolean for #MSFT_otc, likely an error
+2025-05-07 18:36:57,924 - ERROR - API returned boolean for #PFE, likely an error
+2025-05-07 18:37:02,289 - ERROR - API returned boolean for #PFE_otc, likely an error
+2025-05-07 18:37:05,941 - ERROR - API returned boolean for #TSLA, likely an error
+2025-05-07 18:37:09,898 - ERROR - API returned boolean for #TSLA_otc, likely an error
+2025-05-07 18:37:12,649 - ERROR - API returned boolean for #XOM, likely an error
+2025-05-07 18:37:16,809 - ERROR - API returned boolean for #XOM_otc, likely an error
+2025-05-07 18:37:19,448 - ERROR - API returned boolean for 100GBP, likely an error
+2025-05-07 18:37:23,503 - ERROR - API returned boolean for 100GBP_otc, likely an error
+2025-05-07 18:37:28,060 - ERROR - API returned boolean for ADA-USD_otc, likely an error
+2025-05-07 18:37:32,130 - ERROR - API returned boolean for AEDCNY_otc, likely an error
+2025-05-07 18:37:34,579 - ERROR - API returned boolean for AEX25, likely an error
+2025-05-07 18:37:42,812 - ERROR - API returned boolean for AMD_otc, likely an error
+2025-05-07 18:37:56,698 - ERROR - API returned boolean for AMZN_otc, likely an error
+2025-05-07 18:38:11,599 - ERROR - API returned boolean for AUDCAD, likely an error
+2025-05-07 18:38:18,995 - ERROR - API returned boolean for AUDCAD_otc, likely an error
+2025-05-07 18:38:22,959 - ERROR - API returned boolean for AUDCHF, likely an error
+2025-05-07 18:38:27,520 - ERROR - API returned boolean for AUDCHF_otc, likely an error
+2025-05-07 18:38:31,782 - ERROR - API returned boolean for AUDJPY, likely an error
+2025-05-07 18:38:36,543 - ERROR - API returned boolean for AUDJPY_otc, likely an error
+2025-05-07 18:38:40,704 - ERROR - API returned boolean for AUDNZD_otc, likely an error
+2025-05-07 18:38:44,182 - ERROR - API returned boolean for AUDUSD, likely an error
+2025-05-07 18:38:49,546 - ERROR - API returned boolean for AUDUSD_otc, likely an error
+2025-05-07 18:38:52,082 - ERROR - API returned boolean for AUS200, likely an error
+2025-05-07 18:38:56,741 - ERROR - API returned boolean for AUS200_otc, likely an error
+2025-05-07 18:39:01,228 - ERROR - API returned boolean for AVAX_otc, likely an error
+2025-05-07 18:39:04,496 - ERROR - API returned boolean for BABA, likely an error
+2025-05-07 18:39:09,891 - ERROR - API returned boolean for BABA_otc, likely an error
+2025-05-07 18:39:12,235 - ERROR - API returned boolean for BCHEUR, likely an error
+2025-05-07 18:39:15,381 - ERROR - API returned boolean for BCHGBP, likely an error
+2025-05-07 18:39:19,936 - ERROR - API returned boolean for BCHJPY, likely an error
+2025-05-07 18:39:31,664 - ERROR - API returned boolean for BHDCNY_otc, likely an error
+2025-05-07 18:39:36,148 - ERROR - API returned boolean for BITB_otc, likely an error
+2025-05-07 18:39:40,626 - ERROR - API returned boolean for BNB-USD_otc, likely an error
+2025-05-07 18:39:43,075 - ERROR - API returned boolean for BTCGBP, likely an error
+2025-05-07 18:39:45,513 - ERROR - API returned boolean for BTCJPY, likely an error
+2025-05-07 18:39:52,003 - ERROR - API returned boolean for BTCUSD, likely an error
+2025-05-07 18:39:56,770 - ERROR - API returned boolean for BTCUSD_otc, likely an error
+2025-05-07 18:40:00,418 - ERROR - API returned boolean for CAC40, likely an error
+2025-05-07 18:40:04,599 - ERROR - API returned boolean for CADCHF, likely an error
+2025-05-07 18:40:08,783 - ERROR - API returned boolean for CADCHF_otc, likely an error
+2025-05-07 18:40:13,770 - ERROR - API returned boolean for CADJPY, likely an error
+2025-05-07 18:40:18,007 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 18:40:18,234 - ERROR - API returned boolean for CADJPY_otc, likely an error
+2025-05-07 18:40:24,308 - ERROR - API returned boolean for CHFJPY, likely an error
+2025-05-07 18:40:29,077 - ERROR - API returned boolean for CHFJPY_otc, likely an error
+2025-05-07 18:40:32,947 - ERROR - API returned boolean for CHFNOK_otc, likely an error
+2025-05-07 18:40:35,782 - ERROR - API returned boolean for CITI, likely an error
+2025-05-07 18:40:39,948 - ERROR - API returned boolean for CITI_otc, likely an error
+2025-05-07 18:40:44,436 - ERROR - API returned boolean for COIN_otc, likely an error
+2025-05-07 18:40:46,979 - ERROR - API returned boolean for D30EUR, likely an error
+2025-05-07 18:40:52,043 - ERROR - API returned boolean for D30EUR_otc, likely an error
+2025-05-07 18:40:54,884 - ERROR - API returned boolean for DASH_USD, likely an error
+2025-05-07 18:40:57,421 - ERROR - API returned boolean for DJI30, likely an error
+2025-05-07 18:41:01,376 - ERROR - API returned boolean for DJI30_otc, likely an error
+2025-05-07 18:41:05,843 - ERROR - API returned boolean for DOGE_otc, likely an error
+2025-05-07 18:41:09,928 - ERROR - API returned boolean for DOTUSD_otc, likely an error
+2025-05-07 18:41:13,072 - ERROR - API returned boolean for E35EUR, likely an error
+2025-05-07 18:41:18,092 - ERROR - API returned boolean for E35EUR_otc, likely an error
+2025-05-07 18:41:20,726 - ERROR - API returned boolean for E50EUR, likely an error
+2025-05-07 18:41:25,289 - ERROR - API returned boolean for E50EUR_otc, likely an error
+2025-05-07 18:41:27,835 - ERROR - API returned boolean for ETHUSD, likely an error
+2025-05-07 18:41:34,204 - ERROR - API returned boolean for ETHUSD_otc, likely an error
+2025-05-07 18:41:38,663 - ERROR - API returned boolean for EURAUD, likely an error
+2025-05-07 18:41:43,913 - ERROR - API returned boolean for EURCAD, likely an error
+2025-05-07 18:41:48,170 - ERROR - API returned boolean for EURCHF, likely an error
+2025-05-07 18:41:52,757 - ERROR - API returned boolean for EURCHF_otc, likely an error
+2025-05-07 18:41:56,232 - ERROR - API returned boolean for EURGBP, likely an error
+2025-05-07 18:42:00,711 - ERROR - API returned boolean for EURGBP_otc, likely an error
+2025-05-07 18:42:05,597 - ERROR - API returned boolean for EURHUF_otc, likely an error
+2025-05-07 18:42:11,697 - ERROR - API returned boolean for EURJPY, likely an error
+2025-05-07 18:42:16,572 - ERROR - API returned boolean for EURJPY_otc, likely an error
+2025-05-07 18:42:22,434 - ERROR - API returned boolean for EURNZD_otc, likely an error
+2025-05-07 18:42:26,594 - ERROR - API returned boolean for EURRUB_otc, likely an error
+2025-05-07 18:42:31,877 - ERROR - API returned boolean for EURTRY_otc, likely an error
+2025-05-07 18:42:34,850 - ERROR - API returned boolean for EURUSD, likely an error
+2025-05-07 18:42:39,123 - ERROR - API returned boolean for EURUSD_otc, likely an error
+2025-05-07 18:42:41,673 - ERROR - API returned boolean for F40EUR, likely an error
+2025-05-07 18:42:45,837 - ERROR - API returned boolean for F40EUR_otc, likely an error
+2025-05-07 18:42:49,799 - ERROR - API returned boolean for FDX_otc, likely an error
+2025-05-07 18:42:54,192 - ERROR - API returned boolean for GBPAUD, likely an error
+2025-05-07 18:42:59,552 - ERROR - API returned boolean for GBPAUD_otc, likely an error
+2025-05-07 18:43:04,373 - ERROR - API returned boolean for GBPCAD, likely an error
+2025-05-07 18:43:09,098 - ERROR - API returned boolean for GBPCHF, likely an error
+2025-05-07 18:43:20,774 - ERROR - API returned boolean for GBPJPY, likely an error
+2025-05-07 18:43:25,035 - ERROR - API returned boolean for GBPJPY_otc, likely an error
+2025-05-07 18:43:29,741 - ERROR - API returned boolean for GBPUSD, likely an error
+2025-05-07 18:43:34,204 - ERROR - API returned boolean for GBPUSD_otc, likely an error
+2025-05-07 18:43:40,589 - ERROR - API returned boolean for GME_otc, likely an error
+2025-05-07 18:43:46,353 - ERROR - API returned boolean for H33HKD, likely an error
+2025-05-07 18:44:01,568 - ERROR - API returned boolean for IRRUSD_otc, likely an error
+2025-05-07 18:44:06,850 - ERROR - API returned boolean for JODCNY_otc, likely an error
+2025-05-07 18:44:09,701 - ERROR - API returned boolean for JPN225, likely an error
+2025-05-07 18:44:14,267 - ERROR - API returned boolean for JPN225_otc, likely an error
+2025-05-07 18:44:18,654 - ERROR - API returned boolean for KESUSD_otc, likely an error
+2025-05-07 18:44:23,833 - ERROR - API returned boolean for LBPUSD_otc, likely an error
+2025-05-07 18:44:27,943 - ERROR - API returned boolean for LINK_otc, likely an error
+2025-05-07 18:44:30,186 - ERROR - API returned boolean for LNKUSD, likely an error
+2025-05-07 18:44:34,449 - ERROR - API returned boolean for LTCUSD_otc, likely an error
+2025-05-07 18:44:38,450 - ERROR - API returned boolean for MADUSD_otc, likely an error
+2025-05-07 18:44:43,039 - ERROR - API returned boolean for MARA_otc, likely an error
+2025-05-07 18:44:47,923 - ERROR - API returned boolean for MATIC_otc, likely an error
+2025-05-07 18:44:53,612 - ERROR - API returned boolean for NASUSD, likely an error
+2025-05-07 18:44:57,880 - ERROR - API returned boolean for NASUSD_otc, likely an error
+2025-05-07 18:45:00,424 - ERROR - API returned boolean for NFLX, likely an error
+2025-05-07 18:45:06,497 - ERROR - API returned boolean for NFLX_otc, likely an error
+2025-05-07 18:45:12,491 - ERROR - API returned boolean for NGNUSD_otc, likely an error
+2025-05-07 18:45:16,464 - ERROR - API returned boolean for NZDJPY_otc, likely an error
+2025-05-07 18:45:18,020 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 18:45:20,519 - ERROR - API returned boolean for NZDUSD_otc, likely an error
+2025-05-07 18:45:28,401 - ERROR - API returned boolean for OMRCNY_otc, likely an error
+2025-05-07 18:45:32,549 - ERROR - API returned boolean for PLTR_otc, likely an error
+2025-05-07 18:45:36,804 - ERROR - API returned boolean for QARCNY_otc, likely an error
+2025-05-07 18:45:40,958 - ERROR - API returned boolean for SARCNY_otc, likely an error
+2025-05-07 18:45:44,069 - ERROR - API returned boolean for SMI20, likely an error
+2025-05-07 18:45:52,532 - ERROR - API returned boolean for SOL-USD_otc, likely an error
+2025-05-07 18:45:58,087 - ERROR - API returned boolean for SP500, likely an error
+2025-05-07 18:46:02,448 - ERROR - API returned boolean for SP500_otc, likely an error
+2025-05-07 18:46:06,396 - ERROR - API returned boolean for SYPUSD_otc, likely an error
+2025-05-07 18:46:11,149 - ERROR - API returned boolean for TNDUSD_otc, likely an error
+2025-05-07 18:46:15,610 - ERROR - API returned boolean for TON-USD_otc, likely an error
+2025-05-07 18:46:20,464 - ERROR - API returned boolean for TRX-USD_otc, likely an error
+2025-05-07 18:46:24,929 - ERROR - API returned boolean for UAHUSD_otc, likely an error
+2025-05-07 18:46:27,281 - ERROR - API returned boolean for UKBrent, likely an error
+2025-05-07 18:46:31,540 - ERROR - API returned boolean for UKBrent_otc, likely an error
+2025-05-07 18:46:34,376 - ERROR - API returned boolean for USCrude, likely an error
+2025-05-07 18:46:39,730 - ERROR - API returned boolean for USCrude_otc, likely an error
+2025-05-07 18:46:44,906 - ERROR - API returned boolean for USDARS_otc, likely an error
+2025-05-07 18:46:49,592 - ERROR - API returned boolean for USDBDT_otc, likely an error
+2025-05-07 18:46:54,165 - ERROR - API returned boolean for USDBRL_otc, likely an error
+2025-05-07 18:46:57,529 - ERROR - API returned boolean for USDCAD, likely an error
+2025-05-07 18:47:01,596 - ERROR - API returned boolean for USDCAD_otc, likely an error
+2025-05-07 18:47:05,353 - ERROR - API returned boolean for USDCHF, likely an error
+2025-05-07 18:47:09,427 - ERROR - API returned boolean for USDCHF_otc, likely an error
+2025-05-07 18:47:13,702 - ERROR - API returned boolean for USDCLP_otc, likely an error
+2025-05-07 18:47:17,763 - ERROR - API returned boolean for USDCNH_otc, likely an error
+2025-05-07 18:47:21,724 - ERROR - API returned boolean for USDCOP_otc, likely an error
+2025-05-07 18:47:25,879 - ERROR - API returned boolean for USDDZD_otc, likely an error
+2025-05-07 18:47:30,036 - ERROR - API returned boolean for USDEGP_otc, likely an error
+2025-05-07 18:47:34,595 - ERROR - API returned boolean for USDIDR_otc, likely an error
+2025-05-07 18:47:38,742 - ERROR - API returned boolean for USDINR_otc, likely an error
+2025-05-07 18:47:42,601 - ERROR - API returned boolean for USDJPY, likely an error
+2025-05-07 18:47:47,658 - ERROR - API returned boolean for USDJPY_otc, likely an error
+2025-05-07 18:47:52,042 - ERROR - API returned boolean for USDMXN_otc, likely an error
+2025-05-07 18:47:56,231 - ERROR - API returned boolean for USDMYR_otc, likely an error
+2025-05-07 18:48:01,108 - ERROR - API returned boolean for USDPHP_otc, likely an error
+2025-05-07 18:48:05,071 - ERROR - API returned boolean for USDPKR_otc, likely an error
+2025-05-07 18:48:09,017 - ERROR - API returned boolean for USDRUB_otc, likely an error
+2025-05-07 18:48:13,561 - ERROR - API returned boolean for USDSGD_otc, likely an error
+2025-05-07 18:48:18,009 - ERROR - API returned boolean for USDTHB_otc, likely an error
+2025-05-07 18:48:22,467 - ERROR - API returned boolean for USDVND_otc, likely an error
+2025-05-07 18:48:26,832 - ERROR - API returned boolean for VISA_otc, likely an error
+2025-05-07 18:48:31,100 - ERROR - API returned boolean for VIX_otc, likely an error
+2025-05-07 18:48:34,041 - ERROR - API returned boolean for XAGEUR, likely an error
+2025-05-07 18:48:36,271 - ERROR - API returned boolean for XAGUSD, likely an error
+2025-05-07 18:48:40,618 - ERROR - API returned boolean for XAGUSD_otc, likely an error
+2025-05-07 18:48:45,067 - ERROR - API returned boolean for XAUEUR, likely an error
+2025-05-07 18:48:50,431 - ERROR - API returned boolean for XAUUSD, likely an error
+2025-05-07 18:48:54,685 - ERROR - API returned boolean for XAUUSD_otc, likely an error
+2025-05-07 18:48:58,625 - ERROR - API returned boolean for XNGUSD, likely an error
+2025-05-07 18:49:03,300 - ERROR - API returned boolean for XNGUSD_otc, likely an error
+2025-05-07 18:49:06,849 - ERROR - API returned boolean for XPDUSD, likely an error
+2025-05-07 18:49:13,123 - ERROR - API returned boolean for XPDUSD_otc, likely an error
+2025-05-07 18:49:16,804 - ERROR - API returned boolean for XPTUSD, likely an error
+2025-05-07 18:49:20,992 - ERROR - API returned boolean for XPTUSD_otc, likely an error
+2025-05-07 18:49:26,443 - ERROR - API returned boolean for YERUSD_otc, likely an error
+2025-05-07 18:49:32,094 - ERROR - API returned boolean for ZARUSD_otc, likely an error
+2025-05-07 18:50:04,539 - ERROR - API returned boolean for #AAPL, likely an error
+2025-05-07 18:50:08,695 - ERROR - API returned boolean for #AAPL_otc, likely an error
+2025-05-07 18:50:11,143 - ERROR - API returned boolean for #AXP, likely an error
+2025-05-07 18:50:15,000 - ERROR - API returned boolean for #AXP_otc, likely an error
+2025-05-07 18:50:17,955 - ERROR - API returned boolean for #BA, likely an error
+2025-05-07 18:50:18,037 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 18:50:21,922 - ERROR - API returned boolean for #BA_otc, likely an error
+2025-05-07 18:50:24,573 - ERROR - API returned boolean for #CSCO, likely an error
+2025-05-07 18:50:28,539 - ERROR - API returned boolean for #CSCO_otc, likely an error
+2025-05-07 18:50:31,492 - ERROR - API returned boolean for #FB, likely an error
+2025-05-07 18:50:35,371 - ERROR - API returned boolean for #FB_otc, likely an error
+2025-05-07 18:50:38,036 - ERROR - API returned boolean for #INTC, likely an error
+2025-05-07 18:50:42,306 - ERROR - API returned boolean for #INTC_otc, likely an error
+2025-05-07 18:50:44,756 - ERROR - API returned boolean for #JNJ, likely an error
+2025-05-07 18:50:48,845 - ERROR - API returned boolean for #JNJ_otc, likely an error
+2025-05-07 18:50:51,492 - ERROR - API returned boolean for #JPM, likely an error
+2025-05-07 18:50:54,337 - ERROR - API returned boolean for #MCD, likely an error
+2025-05-07 18:50:58,190 - ERROR - API returned boolean for #MCD_otc, likely an error
+2025-05-07 18:51:01,240 - ERROR - API returned boolean for #MSFT, likely an error
+2025-05-07 18:51:05,303 - ERROR - API returned boolean for #MSFT_otc, likely an error
+2025-05-07 18:51:07,950 - ERROR - API returned boolean for #PFE, likely an error
+2025-05-07 18:51:11,821 - ERROR - API returned boolean for #PFE_otc, likely an error
+2025-05-07 18:51:15,071 - ERROR - API returned boolean for #TSLA, likely an error
+2025-05-07 18:51:19,839 - ERROR - API returned boolean for #TSLA_otc, likely an error
+2025-05-07 18:51:22,477 - ERROR - API returned boolean for #XOM, likely an error
+2025-05-07 18:51:26,438 - ERROR - API returned boolean for #XOM_otc, likely an error
+2025-05-07 18:51:28,784 - ERROR - API returned boolean for 100GBP, likely an error
+2025-05-07 18:51:32,645 - ERROR - API returned boolean for 100GBP_otc, likely an error
+2025-05-07 18:51:37,107 - ERROR - API returned boolean for ADA-USD_otc, likely an error
+2025-05-07 18:51:41,552 - ERROR - API returned boolean for AEDCNY_otc, likely an error
+2025-05-07 18:51:44,082 - ERROR - API returned boolean for AEX25, likely an error
+2025-05-07 18:51:48,040 - ERROR - API returned boolean for AMD_otc, likely an error
+2025-05-07 18:51:52,427 - ERROR - API returned boolean for AMZN_otc, likely an error
+2025-05-07 18:51:55,897 - ERROR - API returned boolean for AUDCAD, likely an error
+2025-05-07 18:51:59,946 - ERROR - API returned boolean for AUDCAD_otc, likely an error
+2025-05-07 18:52:05,093 - ERROR - API returned boolean for AUDCHF, likely an error
+2025-05-07 18:52:09,461 - ERROR - API returned boolean for AUDCHF_otc, likely an error
+2025-05-07 18:52:13,749 - ERROR - API returned boolean for AUDJPY, likely an error
+2025-05-07 18:52:18,706 - ERROR - API returned boolean for AUDJPY_otc, likely an error
+2025-05-07 18:52:23,066 - ERROR - API returned boolean for AUDNZD_otc, likely an error
+2025-05-07 18:52:26,304 - ERROR - API returned boolean for AUDUSD, likely an error
+2025-05-07 18:52:30,250 - ERROR - API returned boolean for AUDUSD_otc, likely an error
+2025-05-07 18:52:32,807 - ERROR - API returned boolean for AUS200, likely an error
+2025-05-07 18:52:36,855 - ERROR - API returned boolean for AUS200_otc, likely an error
+2025-05-07 18:52:41,014 - ERROR - API returned boolean for AVAX_otc, likely an error
+2025-05-07 18:52:44,384 - ERROR - API returned boolean for BABA, likely an error
+2025-05-07 18:52:49,161 - ERROR - API returned boolean for BABA_otc, likely an error
+2025-05-07 18:52:51,505 - ERROR - API returned boolean for BCHEUR, likely an error
+2025-05-07 18:52:54,058 - ERROR - API returned boolean for BCHGBP, likely an error
+2025-05-07 18:52:56,603 - ERROR - API returned boolean for BCHJPY, likely an error
+2025-05-07 18:53:00,578 - ERROR - API returned boolean for BHDCNY_otc, likely an error
+2025-05-07 18:53:04,537 - ERROR - API returned boolean for BITB_otc, likely an error
+2025-05-07 18:53:08,731 - ERROR - API returned boolean for BNB-USD_otc, likely an error
+2025-05-07 18:53:11,177 - ERROR - API returned boolean for BTCGBP, likely an error
+2025-05-07 18:53:14,120 - ERROR - API returned boolean for BTCJPY, likely an error
+2025-05-07 18:53:20,442 - ERROR - API returned boolean for BTCUSD, likely an error
+2025-05-07 18:53:24,610 - ERROR - API returned boolean for BTCUSD_otc, likely an error
+2025-05-07 18:53:28,253 - ERROR - API returned boolean for CAC40, likely an error
+2025-05-07 18:55:18,052 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 19:00:18,055 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 19:05:18,065 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 19:10:18,084 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 19:15:18,093 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
+2025-05-07 19:20:18,100 - INFO - Performance Metrics - Total Trades: 0, Success Rate: 0.00%, Total Profit: 0.0
